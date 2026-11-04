@@ -1,1 +1,0 @@
-Send EFGUI.py only, replacing the existing file. Restart calculator Python after transfer. Then launch EXAM2 or APC. Same style and keys; titles and body use a 32-pixel top margin and four body rows per page. Text moves onto extra pages without being discarded. Desktop layout checks passed; physical screen verification is still needed.

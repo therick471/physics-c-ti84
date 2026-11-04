@@ -1,1 +1,0 @@
-Restore copies of the original generated Mechanics files and original launcher. These are the local generated originals, not an export of on-device edits. Transfer them with TI Connect Evo to restore Mechanics.

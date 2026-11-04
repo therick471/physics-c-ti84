@@ -1,19 +1,18 @@
 # Troubleshooting
 
-| Symptom | What to do |
+| Problem | What to do |
 |---|---|
-| Computer does not detect calculator | Check power, USB data cable, adapter and supported browser/software. Use Connect Evo for Evo and Connect CE for CE Python. Reconnect and grant the calculator connection. |
-| ZIP will not send | Extract it on the computer. Select `.py` files from exactly one transfer folder. |
-| Missing module / import error | Transfer every file in the matching complete folder, preserve names, then restart Python. Do not run support modules such as E2PHYS or APCORE directly. |
-| Old menu appears after update | Reinitialize/restart the Python shell; imported modules can remain cached. Then launch EXAM2, EFIELD or APC as appropriate. |
-| Arrow keys do nothing / wrong row opens | Use the correct model profile. On the sharing release run EFKEY and finish its navigation test; learned codes last for the session. Do not apply the Evo GUI to CE Python. |
-| Text hidden behind Python banner on Exam 2 Evo | Current Exam 2 bundle includes the fix. On a matching older Exam 2 install, replace only EFGUI with Exam2_Banner_Fix/EFGUI.py, restart Python, and check on the screen. |
-| Silent APC or APCHECK on original toolkit | Use the corrected full-course bundle; the original launcher did not handle TI's import-style startup properly. |
-| `str` has no attribute `isalnum` | Use the current corrected full-course bundle; v3 removes unsupported character-predicate calls. Historical two-file patch is for that toolkit only. |
-| MemoryError | Restart Python and run the target launcher directly. Use one install, keep only needed optional groups, and back up your own files before removing anything. Source bytes do not measure runtime heap. |
-| Missing ti_draw / ti_plotlib / Python | Obtain model-appropriate OS/apps/modules from TI. Text fallback exists for some views; graphs need ti_plotlib. See [TI CE updates](https://education.ti.com/en/software/update/84-ce-software-update) and the bundled sharing troubleshooting guide. |
-| CE file sent but not shown in Python | TI's Python app loads/runs Python AppVars in RAM. Check names and RAM/Archive in Calculator Explorer or calculator memory management. |
-| Numerical solver cannot find root | Supply a continuous sign-changing bracket and respect physical domains. Some equations have multiple roots; a bracket selects one. |
-| Result differs by powers of ten / sign | Convert all quantities to SI, enter scientific notation carefully, distinguish full rod length from radius, and use the specified coordinate origin. |
+| Calculator is not detected | Turn it on, use a USB data cable, check the adapter and software, reconnect and allow the calculator connection. Use Connect Evo for Evo; Connect CE for CE Python. |
+| ZIP will not transfer | Extract it first. Send only the `.py` files from one TRANSFER folder. |
+| Missing module | Resend every file from the same complete folder, preserve names and restart calculator Python. |
+| Old menu after replacement | Restart/reinitialize calculator Python to clear old imports. |
+| Wrong menu or missing feature | Check which profile you installed. The different APC editions share filenames and should not be merged. |
+| Keys do not respond in EFIELD / EXAM2 | Use the correct model profile. Run EFKEY and follow the prompts; calibration lasts for the Python session. |
+| Text overlaps the banner in Exam 2 | Use the current complete Exam 2 install or its one-file banner update, then restart Python. |
+| Memory error | Restart Python and run the intended launcher directly. For Full APC, use the core-only option explained in its guide if needed. Back up edited files before removing any programs. |
+| CE Python file is not shown | Check that it is a Python-edition calculator and that the Python AppVars are in RAM. Preserve the original names. |
+| Missing Python or drawing/plotting module | Get the model-appropriate OS/apps from TI's official website. Some text views can work without drawing; plots require the plotting module. |
+| Unexpected numerical answer | Check SI units, charge signs, scientific notation, radians/degrees, full rod length versus radius, and the coordinate origin. |
+| Numerical root is missing | Use a continuous sign-changing bracket and the allowed physical domain. A different bracket can select a different root. |
 
-For the two sharing profiles, see the original [detailed troubleshooting guide](../Share_AP_Physics_C_EM/TROUBLESHOOTING.txt). Report the model, OS/Python version, bundle, launcher, selected menu and exact error line so a failure can be reproduced.
+When requesting help, include your calculator model, installed edition, selected menu and exact error message. [Installation](INSTALL.md) · [Full APC](FULL_APC.md) · [E-Field Studio](EFIELD.md) · [Exam 2](EXAM2.md).

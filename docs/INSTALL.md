@@ -1,77 +1,49 @@
-# Download and install
+# Download and install APC
 
-## Which TI-84 do you have?
+## 1. Download everything
 
-Read the model printed on the calculator and check whether it has the Python app.
+Use **Download APC — complete pack** on the repository home page. Extract the ZIP on your computer, then open **START_HERE.md**. You do not need to install Python or coding tools on your computer.
 
-| Model | This collection | Transfer software / action |
+## 2. Find your calculator
+
+| Model | Folder inside `APC_Complete` | What is available |
 |---|---|---|
-| **TI-84 Evo** | Supported target: Exam 2, E&M sharing profile, full-course corrected toolkit | [TI Connect Evo](https://connectevo.ti.com/) in a supported WebUSB browser |
-| **TI-84 Evo-T** | TI lists Evo-T as supported by Connect Evo. These source files are an unverified regional target; no separate Evo-T test was performed | Same Evo transfer route; run checks on the device |
-| **TI-84 Plus CE Python edition** | Separate 34-file E&M profile; desktop/profile checks, physical CE verification pending | [TI Connect CE for Windows/Mac](https://education.ti.com/en/products/computer-software/ti-connect-ce-sw) |
-| **TI-84 Plus CE-T Python edition** | Use the CE Python profile as an unverified regional target; TI supports Python transfer on this family, but this project has no CE-T hardware test | TI Connect CE; verify Python and drawing modules on the device |
-| TI-84 Plus CE / CE-T **without Python** | Cannot run these Python programs | No compatible download in this collection; a separate TI-BASIC port would be needed |
-| TI-84 Plus / Plus T | Cannot run these Python programs | TI Connect CE can transfer supported native files, but it does not make these Python files executable |
-| TI-84 Plus Silver Edition | Cannot run these Python programs | Same limitation; no TI-BASIC build is included |
-| TI-84 Plus C Silver Edition | Cannot run these Python programs | Same limitation; color screen does not imply Python support |
-| Pocket / Pocket SE and other TI-84-branded regional variants without Python | Cannot run these Python programs | Identify the exact model; no compatible Python profile is claimed |
+| TI-84 Evo | `TI84_EVO/FULL_APC/TRANSFER` | Full Mechanics + E&M toolkit: 26 files |
+| TI-84 Evo, focused electrostatics | `TI84_EVO/EXAM2/TRANSFER` | Exam 2 and E-Field Studio: 40 files |
+| TI-84 Evo, E-Field Studio only | `TI84_EVO/EFIELD/TRANSFER` | Studio and E&M reference: 34 files |
+| TI-84 Plus CE Python | `TI84_PLUS_CE_PYTHON/TRANSFER` | APC E&M edition: 34 files |
+| TI-84 Evo-T | Corresponding Evo folder | Same family instructions; regional device behavior has not been checked |
+| TI-84 Plus CE-T Python | CE Python folder | Same family instructions; regional device behavior has not been checked |
+| TI-84 Plus / Plus T / Silver Edition / Pocket / Pocket SE | None | These models do not run the included Python programs |
+| TI-84 Plus C Silver Edition | None | These programs require Python |
+| TI-84 Plus CE / CE-T without Python | None | A color screen alone does not mean Python support |
 
-Installing transfer software or renaming `.py` to `.8xp` does not add a Python interpreter to older hardware. No native TI-BASIC programs were found in the reviewed project. Model support and transfer behavior are based on TI's [connectivity guide](https://education.ti.com/html/eguides/graphing/84plusce/en/content/eg_84tic/m_introtic-ce/tc_intrototiconnect.HTML), [legacy model support](https://education.ti.com/en/customer-support/knowledge-base/ti-83-84-plus-family/product-usage/37036), and [Evo guide](https://education.ti.com/en/product-resources/eguides/eguide-84-evo/evo-connect-user-guide).
+The full Mechanics edition currently targets Evo. CE Python has the E&M edition. Choose one complete folder; do not merge folders or apply Evo interface files to a CE Python installation.
 
-## 1. Download to your computer
+## 3. Send to an Evo
 
-1. From the repository README, click the ZIP for your calculator and course topic.
-2. On GitHub's ZIP file page, click **Download raw file** / the download icon. For everything, choose **Code → Download ZIP** on the repository home page.
-3. Extract the ZIP. On Windows use **Extract All**; on Mac double-click the ZIP.
-4. Open the correct folder below. Do not transfer the ZIP itself.
+1. Turn on the calculator and connect it to your computer using a USB **data** cable.
+2. Open [TI Connect Evo](https://connectevo.ti.com/) in a browser the site supports, such as Chrome. Choose **CONNECT TO CALCULATOR**, select your calculator, and allow the connection.
+3. Choose **SEND FILES → SEND TO CALCULATOR**. Select **every `.py` file** from the chosen `TRANSFER` folder in one batch.
+4. Keep the original filenames. Back up any copies you edited before allowing replacement. Send once and wait until every file finishes.
+5. Open Python on the calculator and restart/reinitialize its shell. Run **APC**.
 
-| Bundle | Select these files | Count | Launch |
-|---|---|---:|---|
-| `Exam2_Evo.zip` | `Exam2_Evo/TRANSFER/*.py` | 40 | `EXAM2` |
-| `Share_AP_Physics_C_EM.zip` for Evo | `Share_AP_Physics_C_EM/TI84_EVO/TRANSFER/*.py` | 34 | `EFIELD` / `APC` |
-| Same sharing ZIP for CE Python | `Share_AP_Physics_C_EM/TI84_PLUS_CE_PYTHON/TRANSFER/*.py` | 34 | `EFIELD` / `APC` |
-| `AP_Physics_C_Evo_Fixed.zip` | `AP_Physics_C_Evo_Fixed/TRANSFER_FIRST/*.py` | 22 | `APC` |
+## 4. Send to a Plus CE Python
 
-The ZIP may open directly into the listed top-level folder depending on your extraction tool. Keep all original filenames and capitalization. Select all files from **one** transfer folder in one batch. Developer folders are for computer use.
+1. Confirm that the calculator is the **Python edition** and has the Python app.
+2. Install/open [TI Connect CE for Windows or Mac](https://education.ti.com/en/products/computer-software/ti-connect-ce-sw). Connect the powered-on calculator with a USB data cable.
+3. Open **Calculator Explorer**. Drag in all 34 `.py` files from `TI84_PLUS_CE_PYTHON/TRANSFER`, or choose **Actions → Send to Calculators**.
+4. Keep filenames unchanged and choose **RAM**. Back up your own edits before replacing matching names, then send all files.
+5. Open the calculator's Python app, reinitialize its shell, and run **APC** or **EFIELD**.
 
-## 2A. TI-84 Evo / Evo-T
+TI Connect CE converts `.py` files automatically. Use Calculator Explorer rather than the TI-BASIC editor. The Python app runs the files from RAM. The CE interface still needs a check on the recipient's physical calculator.
 
-1. Use a computer, a USB **data** cable that fits the calculator, and a WebUSB-capable browser accepted by [TI Connect Evo](https://connectevo.ti.com/). A charging-only cable cannot transfer files.
-2. Power on the calculator, connect it, open the site, and choose **CONNECT TO CALCULATOR**. Select the intended calculator and grant the connection.
-3. Choose **SEND FILES → SEND TO CALCULATOR**. Select every `.py` file in the chosen complete transfer folder. Send once; keep the tab connected until the transfer finishes.
-4. Keep names unchanged. For an update, back up your edits and allow replacement of matching names. Use RAM where offered.
-5. Open Python on the calculator and restart/reinitialize its shell to clear old imports. Continue with the first-run check below.
+## First use
 
-Follow TI's [sending files guide](https://education.ti.com/en/product-resources/eguides/eguide-84-evo/evo-connect-user-guide) for browser/device requirements. Use Connect Evo for this calculator. TI Connect CE did not detect the Evo during the original project work.
+Full APC: run `APC`. Try Mechanics → Forces/dynamics → Newton second law → Solve → F, with m=2 and a=3; the answer should be 6 N.
 
-## 2B. TI-84 Plus CE Python / CE-T Python
+E-Field Studio: run `EFIELD` for the models, or `APC` for the E&M reference. If keys do not respond, run `EFKEY` and follow its prompts.
 
-1. Confirm **Python edition**, with a working Python app. Obtain [TI Connect CE](https://education.ti.com/en/products/computer-software/ti-connect-ce-sw) from TI on a supported Windows or Mac computer. Check TI's current system requirements.
-2. Connect the powered-on calculator with a USB data cable. In TI Connect CE, open **Calculator Explorer** and select the calculator.
-3. Select all **34 `.py` files from `TI84_PLUS_CE_PYTHON/TRANSFER`**, then drag them into Calculator Explorer or use **Actions → Send to Calculators**.
-4. Keep names unchanged; choose **RAM**. Back up your edits before allowing replacement of matching names. Send the group and wait for completion.
-5. Open Python and reinitialize the shell, then run the checks below.
+Exam 2: run `APC → Exam 2 electrostatics` or `EXAM2`. For a uniform sphere with Q=2e-9 C, R=1 m and r=0.5 m, the field should be about 8.99 N/C.
 
-TI Connect CE converts `.py` files into Python AppVars during transfer. The Python app runs them from RAM. You do not need to create `.8xv` files yourself; use Calculator Explorer, not the TI-BASIC Program Editor. See TI's [Python transfer instructions](https://education.ti.com/html/eguides/connectivity/TI-Connect-CE/EN/Content/EG_84_TIConnect/M_UsePython/M_UsePython.HTML). CE hardware testing remains pending.
-
-The browser-based Evo instructions are not a CE installation route. For a Chromebook or an unsupported computer OS, check TI's current connectivity options; this collection does not claim a verified CE Python transfer workflow there.
-
-## 3. First run
-
-**Exam 2 Evo:** run `EXAM2`, choose **Exam 2 self-check**, and look for a PASS message. Restart Python, then reopen `EXAM2`. Try a uniform solid sphere with Q=2e-9 C, R=1 m, r=0.5 m: E ≈ 8.99 N/C. The full transfer already includes the banner fix; no patch is needed for a fresh installation.
-
-**E&M sharing profiles:** run `EFCHK`; expect `EFIELD CHECK START v2` and `PASS: 12 physics + 2 UI`. Restart Python. Run `EFKEY`, press/release each requested navigation key, and complete the DOWN → ENTER selection test. Expect `PASS: hardware navigation`. Calibration lasts for that Python session. Launch `EFIELD` for field models or `APC` for the E&M toolkit.
-
-**Full-course corrected Evo:** run `APCHECK`; expect `APCHECK START v3`, `SELF CHECK PASS`, and `8 numeric checks passed.` Restart Python and run `APC`. Choose Mechanics → Forces/dynamics → Newton second law → Solve → F; m=2 and a=3 should give F=6 N.
-
-The full-course install has optional tools. Transfer `OPTIONAL_TOOLS/APTOOLS.py` plus `APMECH.py`, `APEM.py`, or `APLAB.py` for the groups you need. All four optional files can be sent together if space allows. On an old compressed install, remove only that toolkit's obsolete `APLOAD`, `APNOTES`, and old `APTOOLS` after backing up edits; then install the optional replacement if desired. Do not remove unrelated programs.
-
-## Updating an existing installation
-
-Prefer the matching complete profile and restart Python afterward. Exam 2's `UPDATE` folder is only for an existing compatible E-Field Studio Evo install; send all **eight** files, including `EFGUI.py`. Do not send both `TRANSFER` and `UPDATE`. Historical patch dependencies are documented in [Versions](VERSIONS.md).
-
-## Everyday controls
-
-Graphic E-Field / Exam 2 menus: ↑/↓ selects, ENTER opens, ←/→ changes pages, CLEAR/0 goes back. Number keys select a displayed row. Guide cards use ENTER/RIGHT to advance and LEFT to go back. The corrected full-course text menus use 1–5 and ENTER, 0 back, 8 previous page, 9 next page.
-
-At number prompts use SI units; `q` then ENTER cancels. Scientific notation and expressions such as `2e-9`, `pi/4`, and `sqrt(2)` work. Trig expression inputs are radians; arc and some Exam 2 angle prompts explicitly request degrees. Follow the prompt. For rods, L is **full length**; ring R is radius; axial-rod x is measured from the **near end**.
+After a replacement, always restart calculator Python so it loads the new files. Do not send the ZIP itself, guides, or all model folders at once.
