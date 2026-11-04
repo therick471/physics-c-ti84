@@ -39,6 +39,6 @@ Some menus link to content in another topic. They show a topic-change instructio
 
 ## Controls
 
-The menus retain the same white background, light selection highlight, wrapped formulas and arrow controls. **↑/↓** selects, **ENTER** opens, **←/→** changes pages, and **CLEAR/0** returns. The CE edition uses its own keyboard codes and text positioning. Run **EFKEY** if navigation needs calibration; the learned keys last for that Python session.
+The menus retain the same white background, light selection highlight, wrapped formulas and arrow controls. **↑/↓** selects, **ENTER** opens, **←/→** changes pages, and **CLEAR/0** returns. The CE edition uses its own keyboard codes and text positioning. **Constants / g** and **Last answer** are available in each topic. Run **EFKEY** if navigation needs calibration; the learned keys last for that Python session.
 
 The physics formulas and study text are shared with the Evo editions. Physical CE memory, navigation and rendering still need verification on the recipient's calculator. This package requires the **Python edition**; it cannot add Python to an ordinary CE.

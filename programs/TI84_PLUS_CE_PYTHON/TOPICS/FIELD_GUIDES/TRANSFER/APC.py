@@ -1,4 +1,4 @@
-from APCORE import menu,info,Cancel,error
+from APCORE import menu,info,Cancel,error,CONST,LAST,number,fmt
 from APMEM import release
 from APBANK import TOPIC,ROUTES
 UNITS=['Kinematics','Forces / dynamics','Work / energy / power','Linear momentum','Torque / rotation','Rotation energy / L','Oscillations','Charge / fields / Gauss','Electric potential','Conductors / capacitors','Electric circuits','Magnetic fields','Induction / RL / LC']
@@ -37,12 +37,18 @@ def guides():
   finally:
    mod=None;release(['EFNOTE']+['EFN'+str(n)for n in range(5)])
 def help():
- info('CE topics','All APC content is included in the download. The CE Python workspace is limited, so install one topic at a time. EXAM2: Gauss, energy and study cards. FIELD_STUDIO: calculations, inverses and plots. FIELD_GUIDES: complete derivations. FINAL_FORMULAS: final answers and E&M reference. MECHANICS, EM_REFERENCE: equation solvers. MATH_TOOLS: multi-step solvers, calculus and graphs. See CE_GUIDE.md. Use SI units; follow angle prompts. q cancels numeric input.')
+ info('CE topics','Quit Python before changing topics. In TI Connect CE, archive the previous topic and send the next TOPICS folder. CE_GUIDE.md lists every feature. SI units; follow angle prompts. q cancels numeric inputs.')
 def main():
  while True:
-  i=menu('APC / '+TOPIC,[r[0]for r in ROUTES]+['Other topics / help'])
+  i=menu('APC / '+TOPIC,[r[0]for r in ROUTES]+['Constants / g','Last answer','Other topics / help'])
   if i<0:return
-  if i==len(ROUTES):help();continue
+  if i==len(ROUTES):
+   info('Constants','\n'.join(n+'='+fmt(CONST[n])for n in CONST))
+   try:CONST['g']=number('g m/s^2','+',CONST['g'])
+   except Cancel:pass
+   continue
+  if i==len(ROUTES)+1:info('Last answer','ans='+fmt(LAST[0]));continue
+  if i==len(ROUTES)+2:help();continue
   label,name,action=ROUTES[i];mod=None
   try:
    if name=='MECH':unit_ui(1,7)
