@@ -1,0 +1,7 @@
+APC CE Python - FIELD_GUIDES
+
+Send all 14 .py files in TRANSFER together using TI Connect CE.
+Choose RAM; keep filenames. First back up and archive/remove the previous
+APC topic files listed in its TRANSFER folder. Do not send all topic folders
+together. Keep unrelated personal programs. Quit/reopen Python after changing
+topics, then run APC. See CE_GUIDE.md in the complete download for details.

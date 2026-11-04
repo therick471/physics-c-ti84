@@ -7,13 +7,24 @@ TI Connect Evo: https://connectevo.ti.com/
 Restart calculator Python and run APC. This includes Mechanics, E&M and
 the multi-step tool groups.
 
-## TI-84 Plus CE Python: APC E&M
+## TI-84 Plus CE Python: the same feature library
 
-Open TI84_PLUS_CE_PYTHON/TRANSFER and send all 34 .py files together with
-TI Connect CE using Calculator Explorer. Choose RAM and keep filenames.
+Start with TI84_PLUS_CE_PYTHON/TRANSFER: send all 13 .py files using
+TI Connect CE and choose RAM. Quit/reopen Python, then run APC or EXAM2.
 https://education.ti.com/en/products/computer-software/ti-connect-ce-sw
-Restart calculator Python and run APC or EFIELD.
-This is the E&M edition; the full Mechanics edition currently targets Evo.
+
+The CE includes Exam 2, all Mechanics/E&M equations, multi-step tools,
+calculus, graphs, field derivations and final formulas. Its smaller Python
+workspace requires ONE topic install at a time. Do not send all topics.
+
+Other topic folders are under TI84_PLUS_CE_PYTHON/TOPICS:
+MECHANICS, EM_REFERENCE, MATH_TOOLS, FIELD_STUDIO, FIELD_GUIDES,
+FINAL_FORMULAS, and EXAM2. Send the selected folder's TRANSFER files.
+Before switching, quit Python, back up and archive/remove the prior APC
+topic's files, then send the new topic to RAM and reopen Python.
+
+Read CE_GUIDE.md for topic choices and switching instructions.
+Physical CE operation still requires a check on the recipient's device.
 
 ## Other programs already included
 

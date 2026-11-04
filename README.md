@@ -15,11 +15,11 @@ Physics solvers, formulas, graphs, and guided explanations for your calculator.
 | Calculator | Folder inside the download | Transfer with |
 |---|---|---|
 | **TI-84 Evo** | `TI84_EVO/FULL_APC/TRANSFER` — complete Mechanics + E&M toolkit | [TI Connect Evo](https://connectevo.ti.com/) |
-| **TI-84 Plus CE Python** | `TI84_PLUS_CE_PYTHON/TRANSFER` — APC E&M edition | [TI Connect CE](https://education.ti.com/en/products/computer-software/ti-connect-ce-sw) |
+| **TI-84 Plus CE Python** | `TI84_PLUS_CE_PYTHON/TRANSFER` — start with Exam 2; the full library is in `TOPICS` | [TI Connect CE](https://education.ti.com/en/products/computer-software/ti-connect-ce-sw) |
 
 Evo-T and CE-T Python use the corresponding family instructions. Other TI-84 models without Python cannot run these files. [Find your model and installation steps](docs/INSTALL.md).
 
-The full Mechanics + E&M edition is available for Evo; CE Python currently has the E&M edition. The pack also includes the Evo Exam 2 and E-Field Studio programs. Choose one installation folder at a time, since their filenames overlap.
+**Both models get the same feature library:** Mechanics, E&M, Exam 2, multi-step tools, field derivations, formulas, calculus and graphs. The CE's smaller Python workspace requires one topic install at a time; [follow the CE guide](docs/CE_PYTHON.md). Choose one installation folder at a time, since their filenames overlap.
 
 ---
 
@@ -31,9 +31,9 @@ Everything below is already included in the complete download. Use these guides 
 
 The general Physics C toolkit: **13 units, 160 equations, multi-step solvers, calculus, and graphs**. Includes motion, forces, energy, momentum, rotation, oscillations, electricity, circuits, magnetism, and induction.
 
-**Calculator:** Evo · **Open:** `APC`
+**Calculators:** Evo and Plus CE Python · **Open:** `APC`
 
-[Read the Full APC guide](docs/FULL_APC.md) · [Download only Full APC](https://github.com/therick471/physics-c-ti84/raw/refs/heads/main/downloads/AP_Physics_C_Evo_Fixed.zip)
+[Read the Full APC guide](docs/FULL_APC.md) · [Evo download](https://github.com/therick471/physics-c-ti84/raw/refs/heads/main/downloads/AP_Physics_C_Evo_Fixed.zip) · [CE Python download](https://github.com/therick471/physics-c-ti84/raw/refs/heads/main/downloads/APC_CE_Python.zip)
 
 ### APC E&M / E-Field Studio
 
@@ -41,15 +41,15 @@ Electric-field and potential solvers for **rings, rods, lines, arcs, and point c
 
 **Calculators:** Evo and Plus CE Python · **Open:** `APC` or `EFIELD`
 
-[Read the E-Field Studio guide](docs/EFIELD.md) · [Download only E&M](https://github.com/therick471/physics-c-ti84/raw/refs/heads/main/downloads/Share_AP_Physics_C_EM.zip)
+[Read the E-Field Studio guide](docs/EFIELD.md) · [Evo download](https://github.com/therick471/physics-c-ti84/raw/refs/heads/main/downloads/Share_AP_Physics_C_EM.zip) · [CE Python download](https://github.com/therick471/physics-c-ti84/raw/refs/heads/main/downloads/APC_CE_Python.zip)
 
 ### Exam 2 — Electrostatics
 
 The focused electrostatics program: **Gauss' law, flux, electric potential, work and energy, charge sharing, point sources, and study cards**. Includes E-Field Studio and the updated screen layout.
 
-**Calculator:** Evo · **Open:** `APC → Exam 2 electrostatics` or `EXAM2`
+**Calculators:** Evo and Plus CE Python · **Open:** `APC → Exam 2 electrostatics` or `EXAM2`
 
-[Read the Exam 2 guide](docs/EXAM2.md) · [Download only Exam 2](https://github.com/therick471/physics-c-ti84/raw/refs/heads/main/downloads/Exam2_Evo.zip)
+[Read the Exam 2 guide](docs/EXAM2.md) · [Evo download](https://github.com/therick471/physics-c-ti84/raw/refs/heads/main/downloads/Exam2_Evo.zip) · [CE Python download](https://github.com/therick471/physics-c-ti84/raw/refs/heads/main/downloads/APC_CE_Python.zip)
 
 ## Versions and class topics
 

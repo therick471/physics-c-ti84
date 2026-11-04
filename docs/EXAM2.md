@@ -1,12 +1,14 @@
 # Exam 2 — Electrostatics
 
-This Evo edition focuses on notes **8.1–8.6 and 9.1**: electric force, electric field, electric potential, and Gauss' law.
+This program focuses on notes **8.1–8.6 and 9.1**: electric force, electric field, electric potential, and Gauss' law. Both Evo and CE Python receive the same study cards and physics solvers.
 
 ## Install and open
 
 From the complete download, send all **40 `.py` files** in `TI84_EVO/EXAM2/TRANSFER`. Restart calculator Python and run **APC → Exam 2 electrostatics**, or run **EXAM2** directly.
 
 The smaller `Exam2_Evo.zip` uses `Exam2_Evo/TRANSFER`. It includes the updated screen spacing and E-Field Studio. For a fresh install, use TRANSFER; do not also send UPDATE. [Installation steps](INSTALL.md).
+
+**CE Python:** send all 13 files in `TI84_PLUS_CE_PYTHON/TRANSFER` (or the identical `TOPICS/EXAM2/TRANSFER` folder). Run APC or EXAM2. Rod/ring calculations and derivations are included in separate FIELD_STUDIO and FIELD_GUIDES topic folders to fit CE memory. [CE instructions](CE_PYTHON.md).
 
 ## Find a topic
 

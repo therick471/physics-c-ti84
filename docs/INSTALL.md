@@ -11,14 +11,14 @@ Use **Download APC — complete pack** on the repository home page. Extract the 
 | TI-84 Evo | `TI84_EVO/FULL_APC/TRANSFER` | Full Mechanics + E&M toolkit: 26 files |
 | TI-84 Evo, focused electrostatics | `TI84_EVO/EXAM2/TRANSFER` | Exam 2 and E-Field Studio: 40 files |
 | TI-84 Evo, E-Field Studio only | `TI84_EVO/EFIELD/TRANSFER` | Studio and E&M reference: 34 files |
-| TI-84 Plus CE Python | `TI84_PLUS_CE_PYTHON/TRANSFER` | APC E&M edition: 34 files |
+| TI-84 Plus CE Python | `TI84_PLUS_CE_PYTHON/TRANSFER` | Exam 2 starting install: 13 files; every other tool is included under TOPICS |
 | TI-84 Evo-T | Corresponding Evo folder | Same family instructions; regional device behavior has not been checked |
 | TI-84 Plus CE-T Python | CE Python folder | Same family instructions; regional device behavior has not been checked |
 | TI-84 Plus / Plus T / Silver Edition / Pocket / Pocket SE | None | These models do not run the included Python programs |
 | TI-84 Plus C Silver Edition | None | These programs require Python |
 | TI-84 Plus CE / CE-T without Python | None | A color screen alone does not mean Python support |
 
-The full Mechanics edition currently targets Evo. CE Python has the E&M edition. Choose one complete folder; do not merge folders or apply Evo interface files to a CE Python installation.
+Both models receive the full feature library. CE Python uses smaller topic installs to fit its memory limit. [CE topic guide](CE_PYTHON.md). Choose one complete folder; do not merge folders or apply Evo interface files to a CE Python installation.
 
 ## 3. Send to an Evo
 
@@ -32,9 +32,9 @@ The full Mechanics edition currently targets Evo. CE Python has the E&M edition.
 
 1. Confirm that the calculator is the **Python edition** and has the Python app.
 2. Install/open [TI Connect CE for Windows or Mac](https://education.ti.com/en/products/computer-software/ti-connect-ce-sw). Connect the powered-on calculator with a USB data cable.
-3. Open **Calculator Explorer**. Drag in all 34 `.py` files from `TI84_PLUS_CE_PYTHON/TRANSFER`, or choose **Actions → Send to Calculators**.
+3. Open **Calculator Explorer**. For Exam 2, drag in all 13 `.py` files from `TI84_PLUS_CE_PYTHON/TRANSFER`; for another topic, use only that topic's TRANSFER folder. Do not send all topics together. Use drag-and-drop or **Actions → Send to Calculators**.
 4. Keep filenames unchanged and choose **RAM**. Back up your own edits before replacing matching names, then send all files.
-5. Open the calculator's Python app, reinitialize its shell, and run **APC** or **EFIELD**.
+5. Quit/reopen the calculator's Python app and run **APC**. Before changing topics, back up and archive/remove the previous topic's APC files using its file list. [Detailed switching steps](CE_PYTHON.md).
 
 TI Connect CE converts `.py` files automatically. Use Calculator Explorer rather than the TI-BASIC editor. The Python app runs the files from RAM. The CE interface still needs a check on the recipient's physical calculator.
 

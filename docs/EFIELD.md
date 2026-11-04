@@ -4,9 +4,11 @@ Use this edition for field derivations, formulas, and E&M reference tools.
 
 ## Install and open
 
-From the complete download, send all **34 `.py` files** in `TI84_EVO/EFIELD/TRANSFER` for Evo, or `TI84_PLUS_CE_PYTHON/TRANSFER` for CE Python. Restart calculator Python. Run **EFIELD** for the field models or **APC** for the E&M menu.
+**Evo:** send all 34 `.py` files in `TI84_EVO/EFIELD/TRANSFER`. Restart calculator Python. Run EFIELD for the models or APC for the E&M menu.
 
-The smaller sharing ZIP has the same profiles under `TI84_EVO/TRANSFER` and `TI84_PLUS_CE_PYTHON/TRANSFER`. [Installation steps](INSTALL.md).
+**CE Python:** use `TI84_PLUS_CE_PYTHON/TOPICS/FIELD_STUDIO/TRANSFER` for calculations, inverses, extrema and plots; FIELD_GUIDES for the complete derivations; FINAL_FORMULAS for all final equations. The CE download includes every topic, but only one can be installed at a time. [CE instructions](CE_PYTHON.md).
+
+The older sharing ZIP retains an archived CE profile. Use the current **APC_CE_Python.zip** or the complete pack for a new CE installation.
 
 ## Models and menus
 

@@ -43,6 +43,7 @@ def main():
     graphics=not graphics
     GRAPHICS[0]=graphics
     info('Display','Arrow keys move. ENTER selects or advances. CLEAR returns. 8/9 change pages. Full labels wrap across rows.')
+  except ImportError:info('Change CE topic','This feature is included in another topic. Open CE_GUIDE.md on your computer: FIELD_STUDIO for field solvers, FIELD_GUIDES for derivations, FINAL_FORMULAS for all final equations. Quit Python before changing the installed topic.')
   except Cancel:pass
   except(ValueError,ZeroDivisionError,OverflowError)as e:error(e)
   except MemoryError:info('Memory','Restart Python; run EFIELD directly.')

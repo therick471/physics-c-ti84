@@ -4,8 +4,9 @@ For a fresh install, use the ready-to-transfer folders in **APC_Complete.zip**. 
 
 | Download | Purpose / when to use it |
 |---|---|
+| `APC_CE_Python.zip` | Current CE Python library: Exam 2, Mechanics, E&M, multi-step tools, calculus, graphs, complete field guides and formulas in smaller topic installs. |
 | `AP_Physics_C_Evo_Fixed.zip` | Recommended Full APC edition. Mechanics + E&M; plain program files; fixes the original startup and memory issues. |
-| `Share_AP_Physics_C_EM.zip` | E-Field Studio and APC E&M, with separate Evo and CE Python folders. |
+| `Share_AP_Physics_C_EM.zip` | Saved E-Field Studio sharing edition. For CE Python, use the current APC_CE_Python download; the older 34-file CE folder exceeds the documented workspace budget. |
 | `Exam2_Evo.zip` | Complete Evo Exam 2 install, including the current banner-spacing fix. |
 | `AP_Physics_C_Evo.zip` | Original Full APC edition. Historical; use the corrected edition for normal installation. |
 | `APC_v3_Patch.zip` | Two-file compatibility update for an older corrected Full APC install. Already included in the current corrected edition. |

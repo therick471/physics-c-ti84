@@ -2,8 +2,8 @@
 
 | Assessment / topic | Focus | Program |
 |---|---|---|
-| Early EM I + EM II review | Charge and charging, Coulomb-force vectors, current, resistance and power, simple/complex circuits, Kirchhoff and real batteries | Full APC Units 8 and 11; CE Python APC E&M reference for overlapping topics |
-| Quiz 8.4 | Field proofs for the finite rod's perpendicular bisector and a ring's axis | EFIELD → corresponding model → full derivation |
+| Early EM I + EM II review | Charge and charging, Coulomb-force vectors, current, resistance and power, simple/complex circuits, Kirchhoff and real batteries | Full APC Units 8 and 11; CE Python EM_REFERENCE and MATH_TOOLS topics |
+| Quiz 8.4 | Field proofs for the finite rod's perpendicular bisector and a ring's axis | Evo EFIELD → full derivation; CE FIELD_GUIDES, with FIELD_STUDIO for calculations |
 | Exam 2, notes 8.1–8.6 and 9.1 | Force, fields, Gauss' law, flux, potential, work and energy | EXAM2, or APC → Exam 2 electrostatics |
 | Potential-position graphs / electrode-map lab | E = −dV/dx, equipotentials and superposition | APC potential/calculus tools; EXAM2 point sources and energy |
 | Circuit-junction / ammeter practice | Equivalent resistance, ideal ammeter and junction-current reasoning | Full APC circuits and multi-step E&M tools |

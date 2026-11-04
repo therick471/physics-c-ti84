@@ -23,7 +23,6 @@ def main():
   disp_clr();print('Test incomplete. Run EFKEY again.');return
  disp_clr();print('PASS: hardware navigation')
  print('Bindings apply this session.')
- input('ENTER opens EFIELD ')
- from EFAPP import main as studio
- studio()
+ input('ENTER opens APC ')
+ __import__('APC')
 main()
