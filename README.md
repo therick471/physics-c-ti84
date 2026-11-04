@@ -1,6 +1,6 @@
 # AP Physics C · TI-84 Programs
 
-Jake Rickles's Physics C calculator programs: full-course equation solvers, E-Field Studio, and the Exam 2 electrostatics toolkit. Includes preserved versions, patches, complete download bundles, and installation guides.
+Physics C calculator programs: full-course equation solvers, E-Field Studio, and the Exam 2 electrostatics toolkit. Includes preserved versions, patches, complete download bundles, and installation guides.
 
 **Start with your calculator and assessment:**
 
