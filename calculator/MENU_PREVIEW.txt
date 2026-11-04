@@ -1,0 +1,26 @@
+Desktop text preview of real menu output (not a hardware screenshot).
+
+APC | PHYSICS C 1
+==============================
+1 Mechanics: units 1-7
+2 E&M: units 8-13
+3 Multi-step solvers
+4 Math / lab calculations
+5 Graphs
+0 Back | 8 Prev | 9 Next
+
+APC | E&M 1
+==============================
+1 8 Charge / fields / Gauss
+2 9 Electric potential
+3 10 Conductors / capacitors
+4 11 Electric circuits
+5 12 Magnetic fields
+0 Back | 8 Prev | 9 Next
+
+APC | RC step response 1
+==============================
+1 Solve an unknown
+2 Graph this relation
+3 Equation / variables
+0 Back | 8 Prev | 9 Next

@@ -1,0 +1,366 @@
+{
+  "package": "AP Physics C E&M / E-Field Studio",
+  "release_date": "2026-11-02",
+  "edition": "E&M only; no Mechanics units",
+  "profile_rule": "Install every .py from exactly one model TRANSFER folder.",
+  "desktop_test_groups": {
+    "shared_solver_tests.txt": 33,
+    "model_profile_tests.txt": 12
+  },
+  "profiles": {
+    "TI84_EVO": {
+      "program_count": 34,
+      "source_bytes": 67925,
+      "hardware_status": "Earlier Evo navigation/alignment verified",
+      "files": [
+        {
+          "name": "APC.py",
+          "bytes": 2157,
+          "sha256": "f28e8157d57e7dba011e02af4bbc8b3a1fb25817f2f678bf9b6c946766b6f48c"
+        },
+        {
+          "name": "APCHECK.py",
+          "bytes": 866,
+          "sha256": "fc51c77ab810dddabacaa1fdcd197152bfb4033452a1d8919e2d90685f2477ba"
+        },
+        {
+          "name": "APCORE.py",
+          "bytes": 4125,
+          "sha256": "fbf8951bdad93cae1d488f49bf7db059de736e14ceb0b4567d742d38c87facd2"
+        },
+        {
+          "name": "APDATA.py",
+          "bytes": 2033,
+          "sha256": "2785bc2937a18e2b3df875e64b1dc03739cc05b3d569573f7f4b11943615d352"
+        },
+        {
+          "name": "APFORM.py",
+          "bytes": 3612,
+          "sha256": "96941e6198361f3e06bd62ce622ba957067a816dd1b18b952fa9aa0c0fc5b9f8"
+        },
+        {
+          "name": "APGRAPH.py",
+          "bytes": 2983,
+          "sha256": "cd0d9cae22134fb8d6b8b77095cfe480ffc98fac2b6aec6b2cdb54e78edf2175"
+        },
+        {
+          "name": "APMATH.py",
+          "bytes": 4039,
+          "sha256": "12b9967e1addf151070e36234023a8802a5d393bd74d183fda6a33f17f0c7d36"
+        },
+        {
+          "name": "APMEM.py",
+          "bytes": 157,
+          "sha256": "b6b310b67d9cde1542ef815836924b44524bc0f492e488292d56dc43214f915b"
+        },
+        {
+          "name": "APNUM.py",
+          "bytes": 2013,
+          "sha256": "527948f6db1dfede97e32cf8008b598e8fc0b1c5a78970e1c900a16ea9f5a269"
+        },
+        {
+          "name": "APU08.py",
+          "bytes": 2123,
+          "sha256": "3ad3e7e38173615542dd08b6385c04312cdaada018423bf0236325e0faba2f70"
+        },
+        {
+          "name": "APU09.py",
+          "bytes": 1813,
+          "sha256": "5f7db4b0526f0c163debd67a86b18f50fc574cbeb8e71257683da60e3421cec8"
+        },
+        {
+          "name": "APU10.py",
+          "bytes": 1814,
+          "sha256": "740e9278b562d902a0b074d00013335151008b671559a47d459d16655b628577"
+        },
+        {
+          "name": "APU11.py",
+          "bytes": 2113,
+          "sha256": "73e64063797951eb7e38f24bbcc337e89b9715b7af78e1397d4b6a1167f3dfce"
+        },
+        {
+          "name": "APU12.py",
+          "bytes": 2430,
+          "sha256": "0fc3907eea8b23bc5b4ae2945b5e587d9779e720d11e72410cfb20e81ba3885f"
+        },
+        {
+          "name": "APU13.py",
+          "bytes": 2311,
+          "sha256": "d6d615696b73e98144291dec4af1b36ce421d5c731850573b2954d16f92076d7"
+        },
+        {
+          "name": "EFAPP.py",
+          "bytes": 1686,
+          "sha256": "478f900ce83059f4943acfab978454c5fd1c07c19995ed7d3e25a104fd56d6b1"
+        },
+        {
+          "name": "EFCALC.py",
+          "bytes": 1378,
+          "sha256": "6de72b532a32e9ebf01ada62b648bfa15e4f4be258d57911df72f3a08f029f21"
+        },
+        {
+          "name": "EFCHK.py",
+          "bytes": 1172,
+          "sha256": "45be7798d9d1b4092d9291a830a8cfd4e1f4a96d2de8a756662581da73d7ca89"
+        },
+        {
+          "name": "EFEXT.py",
+          "bytes": 1543,
+          "sha256": "3fccd8f94be6a4de6f426b1c68e1262da402e3a1bd309962f02cac84f9377f9c"
+        },
+        {
+          "name": "EFFINAL.py",
+          "bytes": 4366,
+          "sha256": "92f46faec90a30f2402b0a211490961073fabba801972dbc111bf57da5722f5f"
+        },
+        {
+          "name": "EFGUI.py",
+          "bytes": 5450,
+          "sha256": "a11a0b5f89ad49f90b6f5c7de09d33cb7a5f4e173fb910a0db60f74403ab147c"
+        },
+        {
+          "name": "EFIELD.py",
+          "bytes": 30,
+          "sha256": "788e04bb3b63fdeb64c98246613132d53204c2f8b4a669b9827c01bd537e6d9b"
+        },
+        {
+          "name": "EFINPUT.py",
+          "bytes": 574,
+          "sha256": "6f1759a11f07f76d6a825099d5fc355f3ee4414a24c14c8af5e8eaad6d839ad0"
+        },
+        {
+          "name": "EFINV.py",
+          "bytes": 966,
+          "sha256": "1a91a26edd13d3ef4cd0a7d7d486e853e9551d95b8e5806a7bfbfa2d8d490e46"
+        },
+        {
+          "name": "EFKEY.py",
+          "bytes": 949,
+          "sha256": "f91d2acf9c4bb16e9fbe49dd6ab5abeba59837d1bb85e6f5ea16c005c74095a6"
+        },
+        {
+          "name": "EFMODEL.py",
+          "bytes": 1986,
+          "sha256": "6060362b4acca99a086908a8874bda2adca6cfc11e5ca905e56924b6824038f9"
+        },
+        {
+          "name": "EFN0.py",
+          "bytes": 1863,
+          "sha256": "de07e7b6270e3392430621acb5bed49c3126dfae02259a71c35de116e7ddbf7a"
+        },
+        {
+          "name": "EFN1.py",
+          "bytes": 1935,
+          "sha256": "5868087a81ae44bdc6c8c8b4241619cc5a7cab4fa930e1610fcb1da4b9645c8e"
+        },
+        {
+          "name": "EFN2.py",
+          "bytes": 1018,
+          "sha256": "0291b90df6925d83f614e54c591ff67f9cb74b854e5c1fbf581ae6e299ac24f3"
+        },
+        {
+          "name": "EFN3.py",
+          "bytes": 950,
+          "sha256": "ca8fc55fd77b1596e6015993ac919431e342f410b78e7119e277597c4c684fef"
+        },
+        {
+          "name": "EFN4.py",
+          "bytes": 1842,
+          "sha256": "bebd1506a1be33236775ea468345e91bc4f4e5d485717763411f2bccb272a549"
+        },
+        {
+          "name": "EFNOTE.py",
+          "bytes": 316,
+          "sha256": "d7417ec31d879324aa2e5d6e987fe7c0284b69c5b59cd25a3a3c5ae06dd56a8f"
+        },
+        {
+          "name": "EFPLOT.py",
+          "bytes": 820,
+          "sha256": "1e21685dd3cb75b016bf277c59c070a255d324d6cb3de1a902de49955bea28f9"
+        },
+        {
+          "name": "EFTOOLS.py",
+          "bytes": 4492,
+          "sha256": "f81d4c3bc62803531678be4d099eafcbbcd9501d373dcf7746054397621b770a"
+        }
+      ]
+    },
+    "TI84_PLUS_CE_PYTHON": {
+      "program_count": 34,
+      "source_bytes": 67918,
+      "hardware_status": "Not physically tested; simulated TI API checks passed",
+      "files": [
+        {
+          "name": "APC.py",
+          "bytes": 2157,
+          "sha256": "f28e8157d57e7dba011e02af4bbc8b3a1fb25817f2f678bf9b6c946766b6f48c"
+        },
+        {
+          "name": "APCHECK.py",
+          "bytes": 866,
+          "sha256": "fc51c77ab810dddabacaa1fdcd197152bfb4033452a1d8919e2d90685f2477ba"
+        },
+        {
+          "name": "APCORE.py",
+          "bytes": 4125,
+          "sha256": "fbf8951bdad93cae1d488f49bf7db059de736e14ceb0b4567d742d38c87facd2"
+        },
+        {
+          "name": "APDATA.py",
+          "bytes": 2033,
+          "sha256": "2785bc2937a18e2b3df875e64b1dc03739cc05b3d569573f7f4b11943615d352"
+        },
+        {
+          "name": "APFORM.py",
+          "bytes": 3612,
+          "sha256": "96941e6198361f3e06bd62ce622ba957067a816dd1b18b952fa9aa0c0fc5b9f8"
+        },
+        {
+          "name": "APGRAPH.py",
+          "bytes": 2983,
+          "sha256": "cd0d9cae22134fb8d6b8b77095cfe480ffc98fac2b6aec6b2cdb54e78edf2175"
+        },
+        {
+          "name": "APMATH.py",
+          "bytes": 4039,
+          "sha256": "12b9967e1addf151070e36234023a8802a5d393bd74d183fda6a33f17f0c7d36"
+        },
+        {
+          "name": "APMEM.py",
+          "bytes": 157,
+          "sha256": "b6b310b67d9cde1542ef815836924b44524bc0f492e488292d56dc43214f915b"
+        },
+        {
+          "name": "APNUM.py",
+          "bytes": 2013,
+          "sha256": "527948f6db1dfede97e32cf8008b598e8fc0b1c5a78970e1c900a16ea9f5a269"
+        },
+        {
+          "name": "APU08.py",
+          "bytes": 2123,
+          "sha256": "3ad3e7e38173615542dd08b6385c04312cdaada018423bf0236325e0faba2f70"
+        },
+        {
+          "name": "APU09.py",
+          "bytes": 1813,
+          "sha256": "5f7db4b0526f0c163debd67a86b18f50fc574cbeb8e71257683da60e3421cec8"
+        },
+        {
+          "name": "APU10.py",
+          "bytes": 1814,
+          "sha256": "740e9278b562d902a0b074d00013335151008b671559a47d459d16655b628577"
+        },
+        {
+          "name": "APU11.py",
+          "bytes": 2113,
+          "sha256": "73e64063797951eb7e38f24bbcc337e89b9715b7af78e1397d4b6a1167f3dfce"
+        },
+        {
+          "name": "APU12.py",
+          "bytes": 2430,
+          "sha256": "0fc3907eea8b23bc5b4ae2945b5e587d9779e720d11e72410cfb20e81ba3885f"
+        },
+        {
+          "name": "APU13.py",
+          "bytes": 2311,
+          "sha256": "d6d615696b73e98144291dec4af1b36ce421d5c731850573b2954d16f92076d7"
+        },
+        {
+          "name": "EFAPP.py",
+          "bytes": 1686,
+          "sha256": "478f900ce83059f4943acfab978454c5fd1c07c19995ed7d3e25a104fd56d6b1"
+        },
+        {
+          "name": "EFCALC.py",
+          "bytes": 1378,
+          "sha256": "6de72b532a32e9ebf01ada62b648bfa15e4f4be258d57911df72f3a08f029f21"
+        },
+        {
+          "name": "EFCHK.py",
+          "bytes": 1172,
+          "sha256": "45be7798d9d1b4092d9291a830a8cfd4e1f4a96d2de8a756662581da73d7ca89"
+        },
+        {
+          "name": "EFEXT.py",
+          "bytes": 1543,
+          "sha256": "3fccd8f94be6a4de6f426b1c68e1262da402e3a1bd309962f02cac84f9377f9c"
+        },
+        {
+          "name": "EFFINAL.py",
+          "bytes": 4366,
+          "sha256": "92f46faec90a30f2402b0a211490961073fabba801972dbc111bf57da5722f5f"
+        },
+        {
+          "name": "EFGUI.py",
+          "bytes": 5443,
+          "sha256": "48b0b6eba0a56a0082b01d48a4fa4d0853c475d91a6bcc2c02c7a70dd059a860"
+        },
+        {
+          "name": "EFIELD.py",
+          "bytes": 30,
+          "sha256": "788e04bb3b63fdeb64c98246613132d53204c2f8b4a669b9827c01bd537e6d9b"
+        },
+        {
+          "name": "EFINPUT.py",
+          "bytes": 574,
+          "sha256": "6f1759a11f07f76d6a825099d5fc355f3ee4414a24c14c8af5e8eaad6d839ad0"
+        },
+        {
+          "name": "EFINV.py",
+          "bytes": 966,
+          "sha256": "1a91a26edd13d3ef4cd0a7d7d486e853e9551d95b8e5806a7bfbfa2d8d490e46"
+        },
+        {
+          "name": "EFKEY.py",
+          "bytes": 949,
+          "sha256": "f91d2acf9c4bb16e9fbe49dd6ab5abeba59837d1bb85e6f5ea16c005c74095a6"
+        },
+        {
+          "name": "EFMODEL.py",
+          "bytes": 1986,
+          "sha256": "6060362b4acca99a086908a8874bda2adca6cfc11e5ca905e56924b6824038f9"
+        },
+        {
+          "name": "EFN0.py",
+          "bytes": 1863,
+          "sha256": "de07e7b6270e3392430621acb5bed49c3126dfae02259a71c35de116e7ddbf7a"
+        },
+        {
+          "name": "EFN1.py",
+          "bytes": 1935,
+          "sha256": "5868087a81ae44bdc6c8c8b4241619cc5a7cab4fa930e1610fcb1da4b9645c8e"
+        },
+        {
+          "name": "EFN2.py",
+          "bytes": 1018,
+          "sha256": "0291b90df6925d83f614e54c591ff67f9cb74b854e5c1fbf581ae6e299ac24f3"
+        },
+        {
+          "name": "EFN3.py",
+          "bytes": 950,
+          "sha256": "ca8fc55fd77b1596e6015993ac919431e342f410b78e7119e277597c4c684fef"
+        },
+        {
+          "name": "EFN4.py",
+          "bytes": 1842,
+          "sha256": "bebd1506a1be33236775ea468345e91bc4f4e5d485717763411f2bccb272a549"
+        },
+        {
+          "name": "EFNOTE.py",
+          "bytes": 316,
+          "sha256": "d7417ec31d879324aa2e5d6e987fe7c0284b69c5b59cd25a3a3c5ae06dd56a8f"
+        },
+        {
+          "name": "EFPLOT.py",
+          "bytes": 820,
+          "sha256": "1e21685dd3cb75b016bf277c59c070a255d324d6cb3de1a902de49955bea28f9"
+        },
+        {
+          "name": "EFTOOLS.py",
+          "bytes": 4492,
+          "sha256": "f81d4c3bc62803531678be4d099eafcbbcd9501d373dcf7746054397621b770a"
+        }
+      ]
+    }
+  }
+}

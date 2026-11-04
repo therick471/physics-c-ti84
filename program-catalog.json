@@ -1,0 +1,754 @@
+[
+  {
+    "name": "APC",
+    "role": "Main toolkit launcher; behavior depends on installed release",
+    "distinct_contents": 7,
+    "paths": [
+      "Share_AP_Physics_C_EM/TI84_EVO/TRANSFER/APC.py",
+      "Share_AP_Physics_C_EM/TI84_PLUS_CE_PYTHON/TRANSFER/APC.py",
+      "calculator/APC_EVO/APC.py",
+      "calculator/APC_INSTALL/APC.py",
+      "calculator/APC_LITE/APC.py",
+      "calculator/APC_LITE_SOURCE/APC.py",
+      "calculator/AP_Physics_C_Evo/APC_EVO/APC.py",
+      "calculator/AP_Physics_C_Evo/APC_INSTALL/APC.py",
+      "calculator/AP_Physics_C_Evo_Fixed/TRANSFER_FIRST/APC.py",
+      "calculator/EFIELD_SOURCE/APC.py",
+      "calculator/EField_EM/TRANSFER/APC.py",
+      "calculator/EField_EM/UPDATE/APC.py",
+      "calculator/EField_Final_Formulas_Update/APC.py",
+      "calculator/EField_Navigation_Fix/APC.py",
+      "calculator/Exam2_Evo/TRANSFER/APC.py",
+      "calculator/Exam2_Evo/UPDATE/APC.py",
+      "calculator/Mechanics_Restore_2026-10-30/APC.py"
+    ]
+  },
+  {
+    "name": "APCHECK",
+    "role": "Full-course / reference self-check launcher",
+    "distinct_contents": 4,
+    "paths": [
+      "Share_AP_Physics_C_EM/TI84_EVO/TRANSFER/APCHECK.py",
+      "Share_AP_Physics_C_EM/TI84_PLUS_CE_PYTHON/TRANSFER/APCHECK.py",
+      "calculator/APC_EVO/APCHECK.py",
+      "calculator/APC_INSTALL/APCHECK.py",
+      "calculator/APC_LITE/APCHECK.py",
+      "calculator/APC_LITE_SOURCE/APCHECK.py",
+      "calculator/APC_v3_Patch/APCHECK.py",
+      "calculator/AP_Physics_C_Evo/APC_EVO/APCHECK.py",
+      "calculator/AP_Physics_C_Evo/APC_INSTALL/APCHECK.py",
+      "calculator/AP_Physics_C_Evo_Fixed/TRANSFER_FIRST/APCHECK.py",
+      "calculator/EField_EM/TRANSFER/APCHECK.py",
+      "calculator/Exam2_Evo/TRANSFER/APCHECK.py"
+    ]
+  },
+  {
+    "name": "APCORE",
+    "role": "Shared input, expression parser and menu helpers; release-specific",
+    "distinct_contents": 6,
+    "paths": [
+      "Share_AP_Physics_C_EM/TI84_EVO/TRANSFER/APCORE.py",
+      "Share_AP_Physics_C_EM/TI84_PLUS_CE_PYTHON/TRANSFER/APCORE.py",
+      "calculator/APC_EVO/APCORE.py",
+      "calculator/APC_INSTALL/APCORE.py",
+      "calculator/APC_LITE/APCORE.py",
+      "calculator/APC_LITE_SOURCE/APCORE.py",
+      "calculator/APC_v3_Patch/APCORE.py",
+      "calculator/AP_Physics_C_Evo/APC_EVO/APCORE.py",
+      "calculator/AP_Physics_C_Evo/APC_INSTALL/APCORE.py",
+      "calculator/AP_Physics_C_Evo_Fixed/TRANSFER_FIRST/APCORE.py",
+      "calculator/EFIELD_SOURCE/APCORE.py",
+      "calculator/EField_EM/TRANSFER/APCORE.py",
+      "calculator/EField_EM/UPDATE/APCORE.py",
+      "calculator/EField_Navigation_Fix/APCORE.py",
+      "calculator/Exam2_Evo/TRANSFER/APCORE.py"
+    ]
+  },
+  {
+    "name": "APDATA",
+    "role": "Compact catalog parsing / variable data",
+    "distinct_contents": 4,
+    "paths": [
+      "Share_AP_Physics_C_EM/TI84_EVO/TRANSFER/APDATA.py",
+      "Share_AP_Physics_C_EM/TI84_PLUS_CE_PYTHON/TRANSFER/APDATA.py",
+      "calculator/APC_LITE/APDATA.py",
+      "calculator/APC_LITE_SOURCE/APDATA.py",
+      "calculator/AP_Physics_C_Evo_Fixed/TRANSFER_FIRST/APDATA.py",
+      "calculator/EFIELD_SOURCE/APDATA.py",
+      "calculator/EField_EM/TRANSFER/APDATA.py",
+      "calculator/EField_EM/UPDATE/APDATA.py",
+      "calculator/Exam2_Evo/TRANSFER/APDATA.py"
+    ]
+  },
+  {
+    "name": "APEM",
+    "role": "Optional multi-step E&M tools including circuit networks",
+    "distinct_contents": 2,
+    "paths": [
+      "calculator/APC_LITE/APEM.py",
+      "calculator/APC_LITE_SOURCE/APEM.py",
+      "calculator/AP_Physics_C_Evo_Fixed/OPTIONAL_TOOLS/APEM.py"
+    ]
+  },
+  {
+    "name": "APFORM",
+    "role": "Selectable-unknown formula solver",
+    "distinct_contents": 2,
+    "paths": [
+      "Share_AP_Physics_C_EM/TI84_EVO/TRANSFER/APFORM.py",
+      "Share_AP_Physics_C_EM/TI84_PLUS_CE_PYTHON/TRANSFER/APFORM.py",
+      "calculator/APC_LITE/APFORM.py",
+      "calculator/APC_LITE_SOURCE/APFORM.py",
+      "calculator/AP_Physics_C_Evo_Fixed/TRANSFER_FIRST/APFORM.py",
+      "calculator/EField_EM/TRANSFER/APFORM.py",
+      "calculator/Exam2_Evo/TRANSFER/APFORM.py"
+    ]
+  },
+  {
+    "name": "APGRAPH",
+    "role": "Plotting helpers and custom graphs",
+    "distinct_contents": 6,
+    "paths": [
+      "Share_AP_Physics_C_EM/TI84_EVO/TRANSFER/APGRAPH.py",
+      "Share_AP_Physics_C_EM/TI84_PLUS_CE_PYTHON/TRANSFER/APGRAPH.py",
+      "calculator/APC_EVO/APGRAPH.py",
+      "calculator/APC_INSTALL/APGRAPH.py",
+      "calculator/APC_LITE/APGRAPH.py",
+      "calculator/APC_LITE_SOURCE/APGRAPH.py",
+      "calculator/AP_Physics_C_Evo/APC_EVO/APGRAPH.py",
+      "calculator/AP_Physics_C_Evo/APC_INSTALL/APGRAPH.py",
+      "calculator/AP_Physics_C_Evo_Fixed/TRANSFER_FIRST/APGRAPH.py",
+      "calculator/EFIELD_SOURCE/APGRAPH.py",
+      "calculator/EField_EM/TRANSFER/APGRAPH.py",
+      "calculator/EField_EM/UPDATE/APGRAPH.py",
+      "calculator/Exam2_Evo/TRANSFER/APGRAPH.py"
+    ]
+  },
+  {
+    "name": "APLAB",
+    "role": "Optional regression / lab tools",
+    "distinct_contents": 2,
+    "paths": [
+      "calculator/APC_LITE/APLAB.py",
+      "calculator/APC_LITE_SOURCE/APLAB.py",
+      "calculator/AP_Physics_C_Evo_Fixed/OPTIONAL_TOOLS/APLAB.py"
+    ]
+  },
+  {
+    "name": "APLOAD",
+    "role": "Original compressed-code loader; superseded",
+    "distinct_contents": 1,
+    "paths": [
+      "calculator/APC_INSTALL/APLOAD.py",
+      "calculator/AP_Physics_C_Evo/APC_INSTALL/APLOAD.py"
+    ]
+  },
+  {
+    "name": "APMATH",
+    "role": "Calculus and math tool menus",
+    "distinct_contents": 4,
+    "paths": [
+      "Share_AP_Physics_C_EM/TI84_EVO/TRANSFER/APMATH.py",
+      "Share_AP_Physics_C_EM/TI84_PLUS_CE_PYTHON/TRANSFER/APMATH.py",
+      "calculator/APC_EVO/APMATH.py",
+      "calculator/APC_INSTALL/APMATH.py",
+      "calculator/APC_LITE/APMATH.py",
+      "calculator/APC_LITE_SOURCE/APMATH.py",
+      "calculator/AP_Physics_C_Evo/APC_EVO/APMATH.py",
+      "calculator/AP_Physics_C_Evo/APC_INSTALL/APMATH.py",
+      "calculator/AP_Physics_C_Evo_Fixed/TRANSFER_FIRST/APMATH.py",
+      "calculator/EField_EM/TRANSFER/APMATH.py",
+      "calculator/Exam2_Evo/TRANSFER/APMATH.py"
+    ]
+  },
+  {
+    "name": "APMECH",
+    "role": "Optional multi-step Mechanics tools",
+    "distinct_contents": 2,
+    "paths": [
+      "calculator/APC_LITE/APMECH.py",
+      "calculator/APC_LITE_SOURCE/APMECH.py",
+      "calculator/AP_Physics_C_Evo_Fixed/OPTIONAL_TOOLS/APMECH.py"
+    ]
+  },
+  {
+    "name": "APMEM",
+    "role": "Module cleanup / last-answer storage",
+    "distinct_contents": 2,
+    "paths": [
+      "Share_AP_Physics_C_EM/TI84_EVO/TRANSFER/APMEM.py",
+      "Share_AP_Physics_C_EM/TI84_PLUS_CE_PYTHON/TRANSFER/APMEM.py",
+      "calculator/APC_LITE/APMEM.py",
+      "calculator/APC_LITE_SOURCE/APMEM.py",
+      "calculator/AP_Physics_C_Evo_Fixed/TRANSFER_FIRST/APMEM.py",
+      "calculator/EField_EM/TRANSFER/APMEM.py",
+      "calculator/Exam2_Evo/TRANSFER/APMEM.py"
+    ]
+  },
+  {
+    "name": "APNOTES",
+    "role": "Original concept notes; omitted from corrected core to reduce memory",
+    "distinct_contents": 2,
+    "paths": [
+      "calculator/APC_EVO/APNOTES.py",
+      "calculator/APC_INSTALL/APNOTES.py",
+      "calculator/AP_Physics_C_Evo/APC_EVO/APNOTES.py",
+      "calculator/AP_Physics_C_Evo/APC_INSTALL/APNOTES.py"
+    ]
+  },
+  {
+    "name": "APNUM",
+    "role": "Numerical methods",
+    "distinct_contents": 2,
+    "paths": [
+      "Share_AP_Physics_C_EM/TI84_EVO/TRANSFER/APNUM.py",
+      "Share_AP_Physics_C_EM/TI84_PLUS_CE_PYTHON/TRANSFER/APNUM.py",
+      "calculator/APC_LITE/APNUM.py",
+      "calculator/APC_LITE_SOURCE/APNUM.py",
+      "calculator/AP_Physics_C_Evo_Fixed/TRANSFER_FIRST/APNUM.py",
+      "calculator/EField_EM/TRANSFER/APNUM.py",
+      "calculator/Exam2_Evo/TRANSFER/APNUM.py"
+    ]
+  },
+  {
+    "name": "APTOOLS",
+    "role": "Multi-step tool dispatcher; original and corrected editions differ",
+    "distinct_contents": 4,
+    "paths": [
+      "calculator/APC_EVO/APTOOLS.py",
+      "calculator/APC_INSTALL/APTOOLS.py",
+      "calculator/APC_LITE/APTOOLS.py",
+      "calculator/APC_LITE_SOURCE/APTOOLS.py",
+      "calculator/AP_Physics_C_Evo/APC_EVO/APTOOLS.py",
+      "calculator/AP_Physics_C_Evo/APC_INSTALL/APTOOLS.py",
+      "calculator/AP_Physics_C_Evo_Fixed/OPTIONAL_TOOLS/APTOOLS.py"
+    ]
+  },
+  {
+    "name": "APU01",
+    "role": "Kinematics equation catalog",
+    "distinct_contents": 4,
+    "paths": [
+      "calculator/APC_EVO/APU01.py",
+      "calculator/APC_INSTALL/APU01.py",
+      "calculator/APC_LITE/APU01.py",
+      "calculator/APC_LITE_SOURCE/APU01.py",
+      "calculator/AP_Physics_C_Evo/APC_EVO/APU01.py",
+      "calculator/AP_Physics_C_Evo/APC_INSTALL/APU01.py",
+      "calculator/AP_Physics_C_Evo_Fixed/TRANSFER_FIRST/APU01.py",
+      "calculator/Mechanics_Restore_2026-10-30/APU01.py"
+    ]
+  },
+  {
+    "name": "APU02",
+    "role": "Forces / dynamics equation catalog",
+    "distinct_contents": 4,
+    "paths": [
+      "calculator/APC_EVO/APU02.py",
+      "calculator/APC_INSTALL/APU02.py",
+      "calculator/APC_LITE/APU02.py",
+      "calculator/APC_LITE_SOURCE/APU02.py",
+      "calculator/AP_Physics_C_Evo/APC_EVO/APU02.py",
+      "calculator/AP_Physics_C_Evo/APC_INSTALL/APU02.py",
+      "calculator/AP_Physics_C_Evo_Fixed/TRANSFER_FIRST/APU02.py",
+      "calculator/Mechanics_Restore_2026-10-30/APU02.py"
+    ]
+  },
+  {
+    "name": "APU03",
+    "role": "Work / energy / power equation catalog",
+    "distinct_contents": 4,
+    "paths": [
+      "calculator/APC_EVO/APU03.py",
+      "calculator/APC_INSTALL/APU03.py",
+      "calculator/APC_LITE/APU03.py",
+      "calculator/APC_LITE_SOURCE/APU03.py",
+      "calculator/AP_Physics_C_Evo/APC_EVO/APU03.py",
+      "calculator/AP_Physics_C_Evo/APC_INSTALL/APU03.py",
+      "calculator/AP_Physics_C_Evo_Fixed/TRANSFER_FIRST/APU03.py",
+      "calculator/Mechanics_Restore_2026-10-30/APU03.py"
+    ]
+  },
+  {
+    "name": "APU04",
+    "role": "Linear momentum equation catalog",
+    "distinct_contents": 4,
+    "paths": [
+      "calculator/APC_EVO/APU04.py",
+      "calculator/APC_INSTALL/APU04.py",
+      "calculator/APC_LITE/APU04.py",
+      "calculator/APC_LITE_SOURCE/APU04.py",
+      "calculator/AP_Physics_C_Evo/APC_EVO/APU04.py",
+      "calculator/AP_Physics_C_Evo/APC_INSTALL/APU04.py",
+      "calculator/AP_Physics_C_Evo_Fixed/TRANSFER_FIRST/APU04.py",
+      "calculator/Mechanics_Restore_2026-10-30/APU04.py"
+    ]
+  },
+  {
+    "name": "APU05",
+    "role": "Torque / rotation equation catalog",
+    "distinct_contents": 4,
+    "paths": [
+      "calculator/APC_EVO/APU05.py",
+      "calculator/APC_INSTALL/APU05.py",
+      "calculator/APC_LITE/APU05.py",
+      "calculator/APC_LITE_SOURCE/APU05.py",
+      "calculator/AP_Physics_C_Evo/APC_EVO/APU05.py",
+      "calculator/AP_Physics_C_Evo/APC_INSTALL/APU05.py",
+      "calculator/AP_Physics_C_Evo_Fixed/TRANSFER_FIRST/APU05.py",
+      "calculator/Mechanics_Restore_2026-10-30/APU05.py"
+    ]
+  },
+  {
+    "name": "APU06",
+    "role": "Rotational energy / angular momentum equation catalog",
+    "distinct_contents": 4,
+    "paths": [
+      "calculator/APC_EVO/APU06.py",
+      "calculator/APC_INSTALL/APU06.py",
+      "calculator/APC_LITE/APU06.py",
+      "calculator/APC_LITE_SOURCE/APU06.py",
+      "calculator/AP_Physics_C_Evo/APC_EVO/APU06.py",
+      "calculator/AP_Physics_C_Evo/APC_INSTALL/APU06.py",
+      "calculator/AP_Physics_C_Evo_Fixed/TRANSFER_FIRST/APU06.py",
+      "calculator/Mechanics_Restore_2026-10-30/APU06.py"
+    ]
+  },
+  {
+    "name": "APU07",
+    "role": "Oscillations equation catalog",
+    "distinct_contents": 4,
+    "paths": [
+      "calculator/APC_EVO/APU07.py",
+      "calculator/APC_INSTALL/APU07.py",
+      "calculator/APC_LITE/APU07.py",
+      "calculator/APC_LITE_SOURCE/APU07.py",
+      "calculator/AP_Physics_C_Evo/APC_EVO/APU07.py",
+      "calculator/AP_Physics_C_Evo/APC_INSTALL/APU07.py",
+      "calculator/AP_Physics_C_Evo_Fixed/TRANSFER_FIRST/APU07.py",
+      "calculator/Mechanics_Restore_2026-10-30/APU07.py"
+    ]
+  },
+  {
+    "name": "APU08",
+    "role": "Charges / fields / Gauss equation catalog",
+    "distinct_contents": 4,
+    "paths": [
+      "Share_AP_Physics_C_EM/TI84_EVO/TRANSFER/APU08.py",
+      "Share_AP_Physics_C_EM/TI84_PLUS_CE_PYTHON/TRANSFER/APU08.py",
+      "calculator/APC_EVO/APU08.py",
+      "calculator/APC_INSTALL/APU08.py",
+      "calculator/APC_LITE/APU08.py",
+      "calculator/APC_LITE_SOURCE/APU08.py",
+      "calculator/AP_Physics_C_Evo/APC_EVO/APU08.py",
+      "calculator/AP_Physics_C_Evo/APC_INSTALL/APU08.py",
+      "calculator/AP_Physics_C_Evo_Fixed/TRANSFER_FIRST/APU08.py",
+      "calculator/EField_EM/TRANSFER/APU08.py",
+      "calculator/Exam2_Evo/TRANSFER/APU08.py"
+    ]
+  },
+  {
+    "name": "APU09",
+    "role": "Potential equation catalog",
+    "distinct_contents": 4,
+    "paths": [
+      "Share_AP_Physics_C_EM/TI84_EVO/TRANSFER/APU09.py",
+      "Share_AP_Physics_C_EM/TI84_PLUS_CE_PYTHON/TRANSFER/APU09.py",
+      "calculator/APC_EVO/APU09.py",
+      "calculator/APC_INSTALL/APU09.py",
+      "calculator/APC_LITE/APU09.py",
+      "calculator/APC_LITE_SOURCE/APU09.py",
+      "calculator/AP_Physics_C_Evo/APC_EVO/APU09.py",
+      "calculator/AP_Physics_C_Evo/APC_INSTALL/APU09.py",
+      "calculator/AP_Physics_C_Evo_Fixed/TRANSFER_FIRST/APU09.py",
+      "calculator/EField_EM/TRANSFER/APU09.py",
+      "calculator/Exam2_Evo/TRANSFER/APU09.py"
+    ]
+  },
+  {
+    "name": "APU10",
+    "role": "Conductors / capacitors equation catalog",
+    "distinct_contents": 4,
+    "paths": [
+      "Share_AP_Physics_C_EM/TI84_EVO/TRANSFER/APU10.py",
+      "Share_AP_Physics_C_EM/TI84_PLUS_CE_PYTHON/TRANSFER/APU10.py",
+      "calculator/APC_EVO/APU10.py",
+      "calculator/APC_INSTALL/APU10.py",
+      "calculator/APC_LITE/APU10.py",
+      "calculator/APC_LITE_SOURCE/APU10.py",
+      "calculator/AP_Physics_C_Evo/APC_EVO/APU10.py",
+      "calculator/AP_Physics_C_Evo/APC_INSTALL/APU10.py",
+      "calculator/AP_Physics_C_Evo_Fixed/TRANSFER_FIRST/APU10.py",
+      "calculator/EField_EM/TRANSFER/APU10.py",
+      "calculator/Exam2_Evo/TRANSFER/APU10.py"
+    ]
+  },
+  {
+    "name": "APU11",
+    "role": "Circuits equation catalog",
+    "distinct_contents": 4,
+    "paths": [
+      "Share_AP_Physics_C_EM/TI84_EVO/TRANSFER/APU11.py",
+      "Share_AP_Physics_C_EM/TI84_PLUS_CE_PYTHON/TRANSFER/APU11.py",
+      "calculator/APC_EVO/APU11.py",
+      "calculator/APC_INSTALL/APU11.py",
+      "calculator/APC_LITE/APU11.py",
+      "calculator/APC_LITE_SOURCE/APU11.py",
+      "calculator/AP_Physics_C_Evo/APC_EVO/APU11.py",
+      "calculator/AP_Physics_C_Evo/APC_INSTALL/APU11.py",
+      "calculator/AP_Physics_C_Evo_Fixed/TRANSFER_FIRST/APU11.py",
+      "calculator/EField_EM/TRANSFER/APU11.py",
+      "calculator/Exam2_Evo/TRANSFER/APU11.py"
+    ]
+  },
+  {
+    "name": "APU12",
+    "role": "Magnetic fields equation catalog",
+    "distinct_contents": 4,
+    "paths": [
+      "Share_AP_Physics_C_EM/TI84_EVO/TRANSFER/APU12.py",
+      "Share_AP_Physics_C_EM/TI84_PLUS_CE_PYTHON/TRANSFER/APU12.py",
+      "calculator/APC_EVO/APU12.py",
+      "calculator/APC_INSTALL/APU12.py",
+      "calculator/APC_LITE/APU12.py",
+      "calculator/APC_LITE_SOURCE/APU12.py",
+      "calculator/AP_Physics_C_Evo/APC_EVO/APU12.py",
+      "calculator/AP_Physics_C_Evo/APC_INSTALL/APU12.py",
+      "calculator/AP_Physics_C_Evo_Fixed/TRANSFER_FIRST/APU12.py",
+      "calculator/EField_EM/TRANSFER/APU12.py",
+      "calculator/Exam2_Evo/TRANSFER/APU12.py"
+    ]
+  },
+  {
+    "name": "APU13",
+    "role": "Induction / RL / LC equation catalog",
+    "distinct_contents": 4,
+    "paths": [
+      "Share_AP_Physics_C_EM/TI84_EVO/TRANSFER/APU13.py",
+      "Share_AP_Physics_C_EM/TI84_PLUS_CE_PYTHON/TRANSFER/APU13.py",
+      "calculator/APC_EVO/APU13.py",
+      "calculator/APC_INSTALL/APU13.py",
+      "calculator/APC_LITE/APU13.py",
+      "calculator/APC_LITE_SOURCE/APU13.py",
+      "calculator/AP_Physics_C_Evo/APC_EVO/APU13.py",
+      "calculator/AP_Physics_C_Evo/APC_INSTALL/APU13.py",
+      "calculator/AP_Physics_C_Evo_Fixed/TRANSFER_FIRST/APU13.py",
+      "calculator/EField_EM/TRANSFER/APU13.py",
+      "calculator/Exam2_Evo/TRANSFER/APU13.py"
+    ]
+  },
+  {
+    "name": "E2APP",
+    "role": "Exam 2 menu router (support)",
+    "distinct_contents": 1,
+    "paths": [
+      "calculator/Exam2_Evo/TRANSFER/E2APP.py",
+      "calculator/Exam2_Evo/UPDATE/E2APP.py"
+    ]
+  },
+  {
+    "name": "E2CALC",
+    "role": "Exam 2 prompt/solver routes (support)",
+    "distinct_contents": 1,
+    "paths": [
+      "calculator/Exam2_Evo/TRANSFER/E2CALC.py",
+      "calculator/Exam2_Evo/UPDATE/E2CALC.py"
+    ]
+  },
+  {
+    "name": "E2CHECK",
+    "role": "Exam 2 self-check called from menu (support)",
+    "distinct_contents": 1,
+    "paths": [
+      "calculator/Exam2_Evo/TRANSFER/E2CHECK.py",
+      "calculator/Exam2_Evo/UPDATE/E2CHECK.py"
+    ]
+  },
+  {
+    "name": "E2NOTES",
+    "role": "Exam 2 study cards and formulas (support)",
+    "distinct_contents": 1,
+    "paths": [
+      "calculator/Exam2_Evo/TRANSFER/E2NOTES.py",
+      "calculator/Exam2_Evo/UPDATE/E2NOTES.py"
+    ]
+  },
+  {
+    "name": "E2PHYS",
+    "role": "Exam 2 physics functions (support)",
+    "distinct_contents": 1,
+    "paths": [
+      "calculator/Exam2_Evo/TRANSFER/E2PHYS.py",
+      "calculator/Exam2_Evo/UPDATE/E2PHYS.py"
+    ]
+  },
+  {
+    "name": "EFAPP",
+    "role": "E-field menu router",
+    "distinct_contents": 2,
+    "paths": [
+      "Share_AP_Physics_C_EM/TI84_EVO/TRANSFER/EFAPP.py",
+      "Share_AP_Physics_C_EM/TI84_PLUS_CE_PYTHON/TRANSFER/EFAPP.py",
+      "calculator/EFIELD_SOURCE/EFAPP.py",
+      "calculator/EField_EM/TRANSFER/EFAPP.py",
+      "calculator/EField_EM/UPDATE/EFAPP.py",
+      "calculator/EField_Final_Formulas_Update/EFAPP.py",
+      "calculator/EField_Navigation_Fix/EFAPP.py",
+      "calculator/Exam2_Evo/TRANSFER/EFAPP.py"
+    ]
+  },
+  {
+    "name": "EFCALC",
+    "role": "Field-model numerical input/actions",
+    "distinct_contents": 2,
+    "paths": [
+      "Share_AP_Physics_C_EM/TI84_EVO/TRANSFER/EFCALC.py",
+      "Share_AP_Physics_C_EM/TI84_PLUS_CE_PYTHON/TRANSFER/EFCALC.py",
+      "calculator/EFIELD_SOURCE/EFCALC.py",
+      "calculator/EField_EM/TRANSFER/EFCALC.py",
+      "calculator/EField_EM/UPDATE/EFCALC.py",
+      "calculator/EField_Navigation_Fix/EFCALC.py",
+      "calculator/Exam2_Evo/TRANSFER/EFCALC.py"
+    ]
+  },
+  {
+    "name": "EFCHK",
+    "role": "E-field physics and UI self-check launcher",
+    "distinct_contents": 2,
+    "paths": [
+      "Share_AP_Physics_C_EM/TI84_EVO/TRANSFER/EFCHK.py",
+      "Share_AP_Physics_C_EM/TI84_PLUS_CE_PYTHON/TRANSFER/EFCHK.py",
+      "calculator/EFIELD_SOURCE/EFCHK.py",
+      "calculator/EField_EM/TRANSFER/EFCHK.py",
+      "calculator/EField_EM/UPDATE/EFCHK.py",
+      "calculator/EField_Navigation_Fix/EFCHK.py",
+      "calculator/Exam2_Evo/TRANSFER/EFCHK.py"
+    ]
+  },
+  {
+    "name": "EFEXT",
+    "role": "Custom limits/extrema and calculus",
+    "distinct_contents": 2,
+    "paths": [
+      "Share_AP_Physics_C_EM/TI84_EVO/TRANSFER/EFEXT.py",
+      "Share_AP_Physics_C_EM/TI84_PLUS_CE_PYTHON/TRANSFER/EFEXT.py",
+      "calculator/EFIELD_SOURCE/EFEXT.py",
+      "calculator/EField_EM/TRANSFER/EFEXT.py",
+      "calculator/EField_EM/UPDATE/EFEXT.py",
+      "calculator/Exam2_Evo/TRANSFER/EFEXT.py"
+    ]
+  },
+  {
+    "name": "EFFINAL",
+    "role": "Final-formula browser",
+    "distinct_contents": 2,
+    "paths": [
+      "Share_AP_Physics_C_EM/TI84_EVO/TRANSFER/EFFINAL.py",
+      "Share_AP_Physics_C_EM/TI84_PLUS_CE_PYTHON/TRANSFER/EFFINAL.py",
+      "calculator/EFIELD_SOURCE/EFFINAL.py",
+      "calculator/EField_EM/TRANSFER/EFFINAL.py",
+      "calculator/EField_EM/UPDATE/EFFINAL.py",
+      "calculator/EField_Final_Formulas_Update/EFFINAL.py",
+      "calculator/EField_Navigation_Fix/EFFINAL.py",
+      "calculator/Exam2_Evo/TRANSFER/EFFINAL.py"
+    ]
+  },
+  {
+    "name": "EFGUI",
+    "role": "Model-specific graphics, keyboard and pagination",
+    "distinct_contents": 3,
+    "paths": [
+      "Share_AP_Physics_C_EM/TI84_EVO/TRANSFER/EFGUI.py",
+      "Share_AP_Physics_C_EM/TI84_PLUS_CE_PYTHON/TRANSFER/EFGUI.py",
+      "calculator/EFIELD_SOURCE/EFGUI.py",
+      "calculator/EField_EM/TRANSFER/EFGUI.py",
+      "calculator/EField_EM/UPDATE/EFGUI.py",
+      "calculator/EField_Keyboard_Fix/EFGUI.py",
+      "calculator/EField_Navigation_Fix/EFGUI.py",
+      "calculator/EField_Plain_UI_Update/EFGUI.py",
+      "calculator/Exam2_Banner_Fix/EFGUI.py",
+      "calculator/Exam2_Evo/TRANSFER/EFGUI.py",
+      "calculator/Exam2_Evo/UPDATE/EFGUI.py"
+    ]
+  },
+  {
+    "name": "EFIELD",
+    "role": "E-Field Studio launcher",
+    "distinct_contents": 1,
+    "paths": [
+      "Share_AP_Physics_C_EM/TI84_EVO/TRANSFER/EFIELD.py",
+      "Share_AP_Physics_C_EM/TI84_PLUS_CE_PYTHON/TRANSFER/EFIELD.py",
+      "calculator/EFIELD_SOURCE/EFIELD.py",
+      "calculator/EField_EM/TRANSFER/EFIELD.py",
+      "calculator/EField_EM/UPDATE/EFIELD.py",
+      "calculator/Exam2_Evo/TRANSFER/EFIELD.py"
+    ]
+  },
+  {
+    "name": "EFINPUT",
+    "role": "Model input prompts",
+    "distinct_contents": 2,
+    "paths": [
+      "Share_AP_Physics_C_EM/TI84_EVO/TRANSFER/EFINPUT.py",
+      "Share_AP_Physics_C_EM/TI84_PLUS_CE_PYTHON/TRANSFER/EFINPUT.py",
+      "calculator/EFIELD_SOURCE/EFINPUT.py",
+      "calculator/EField_EM/TRANSFER/EFINPUT.py",
+      "calculator/EField_EM/UPDATE/EFINPUT.py",
+      "calculator/Exam2_Evo/TRANSFER/EFINPUT.py"
+    ]
+  },
+  {
+    "name": "EFINV",
+    "role": "Inverse solvers / maxima routes",
+    "distinct_contents": 2,
+    "paths": [
+      "Share_AP_Physics_C_EM/TI84_EVO/TRANSFER/EFINV.py",
+      "Share_AP_Physics_C_EM/TI84_PLUS_CE_PYTHON/TRANSFER/EFINV.py",
+      "calculator/EFIELD_SOURCE/EFINV.py",
+      "calculator/EField_EM/TRANSFER/EFINV.py",
+      "calculator/EField_EM/UPDATE/EFINV.py",
+      "calculator/Exam2_Evo/TRANSFER/EFINV.py"
+    ]
+  },
+  {
+    "name": "EFKEY",
+    "role": "Hardware-key calibration and navigation test launcher",
+    "distinct_contents": 3,
+    "paths": [
+      "Share_AP_Physics_C_EM/TI84_EVO/TRANSFER/EFKEY.py",
+      "Share_AP_Physics_C_EM/TI84_PLUS_CE_PYTHON/TRANSFER/EFKEY.py",
+      "calculator/EFIELD_SOURCE/EFKEY.py",
+      "calculator/EField_EM/TRANSFER/EFKEY.py",
+      "calculator/EField_EM/UPDATE/EFKEY.py",
+      "calculator/EField_Keyboard_Fix/EFKEY.py",
+      "calculator/Exam2_Evo/TRANSFER/EFKEY.py"
+    ]
+  },
+  {
+    "name": "EFMODEL",
+    "role": "Standard field/potential models and inverse helpers",
+    "distinct_contents": 2,
+    "paths": [
+      "Share_AP_Physics_C_EM/TI84_EVO/TRANSFER/EFMODEL.py",
+      "Share_AP_Physics_C_EM/TI84_PLUS_CE_PYTHON/TRANSFER/EFMODEL.py",
+      "calculator/EFIELD_SOURCE/EFMODEL.py",
+      "calculator/EField_EM/TRANSFER/EFMODEL.py",
+      "calculator/EField_EM/UPDATE/EFMODEL.py",
+      "calculator/Exam2_Evo/TRANSFER/EFMODEL.py"
+    ]
+  },
+  {
+    "name": "EFN0",
+    "role": "Ring-axis derivation cards",
+    "distinct_contents": 1,
+    "paths": [
+      "Share_AP_Physics_C_EM/TI84_EVO/TRANSFER/EFN0.py",
+      "Share_AP_Physics_C_EM/TI84_PLUS_CE_PYTHON/TRANSFER/EFN0.py",
+      "calculator/EFIELD_SOURCE/EFN0.py",
+      "calculator/EField_EM/TRANSFER/EFN0.py",
+      "calculator/EField_EM/UPDATE/EFN0.py",
+      "calculator/Exam2_Evo/TRANSFER/EFN0.py"
+    ]
+  },
+  {
+    "name": "EFN1",
+    "role": "Finite rod, perpendicular bisector derivation cards",
+    "distinct_contents": 1,
+    "paths": [
+      "Share_AP_Physics_C_EM/TI84_EVO/TRANSFER/EFN1.py",
+      "Share_AP_Physics_C_EM/TI84_PLUS_CE_PYTHON/TRANSFER/EFN1.py",
+      "calculator/EFIELD_SOURCE/EFN1.py",
+      "calculator/EField_EM/TRANSFER/EFN1.py",
+      "calculator/EField_EM/UPDATE/EFN1.py",
+      "calculator/Exam2_Evo/TRANSFER/EFN1.py"
+    ]
+  },
+  {
+    "name": "EFN2",
+    "role": "Finite rod, axial point derivation cards",
+    "distinct_contents": 1,
+    "paths": [
+      "Share_AP_Physics_C_EM/TI84_EVO/TRANSFER/EFN2.py",
+      "Share_AP_Physics_C_EM/TI84_PLUS_CE_PYTHON/TRANSFER/EFN2.py",
+      "calculator/EFIELD_SOURCE/EFN2.py",
+      "calculator/EField_EM/TRANSFER/EFN2.py",
+      "calculator/EField_EM/UPDATE/EFN2.py",
+      "calculator/Exam2_Evo/TRANSFER/EFN2.py"
+    ]
+  },
+  {
+    "name": "EFN3",
+    "role": "Infinite line derivation cards",
+    "distinct_contents": 1,
+    "paths": [
+      "Share_AP_Physics_C_EM/TI84_EVO/TRANSFER/EFN3.py",
+      "Share_AP_Physics_C_EM/TI84_PLUS_CE_PYTHON/TRANSFER/EFN3.py",
+      "calculator/EFIELD_SOURCE/EFN3.py",
+      "calculator/EField_EM/TRANSFER/EFN3.py",
+      "calculator/EField_EM/UPDATE/EFN3.py",
+      "calculator/Exam2_Evo/TRANSFER/EFN3.py"
+    ]
+  },
+  {
+    "name": "EFN4",
+    "role": "Arc center derivation cards",
+    "distinct_contents": 1,
+    "paths": [
+      "Share_AP_Physics_C_EM/TI84_EVO/TRANSFER/EFN4.py",
+      "Share_AP_Physics_C_EM/TI84_PLUS_CE_PYTHON/TRANSFER/EFN4.py",
+      "calculator/EFIELD_SOURCE/EFN4.py",
+      "calculator/EField_EM/TRANSFER/EFN4.py",
+      "calculator/EField_EM/UPDATE/EFN4.py",
+      "calculator/Exam2_Evo/TRANSFER/EFN4.py"
+    ]
+  },
+  {
+    "name": "EFNOTE",
+    "role": "Derivation-card router",
+    "distinct_contents": 2,
+    "paths": [
+      "Share_AP_Physics_C_EM/TI84_EVO/TRANSFER/EFNOTE.py",
+      "Share_AP_Physics_C_EM/TI84_PLUS_CE_PYTHON/TRANSFER/EFNOTE.py",
+      "calculator/EFIELD_SOURCE/EFNOTE.py",
+      "calculator/EField_EM/TRANSFER/EFNOTE.py",
+      "calculator/EField_EM/UPDATE/EFNOTE.py",
+      "calculator/Exam2_Evo/TRANSFER/EFNOTE.py"
+    ]
+  },
+  {
+    "name": "EFPLOT",
+    "role": "Field/potential graphs",
+    "distinct_contents": 2,
+    "paths": [
+      "Share_AP_Physics_C_EM/TI84_EVO/TRANSFER/EFPLOT.py",
+      "Share_AP_Physics_C_EM/TI84_PLUS_CE_PYTHON/TRANSFER/EFPLOT.py",
+      "calculator/EFIELD_SOURCE/EFPLOT.py",
+      "calculator/EField_EM/TRANSFER/EFPLOT.py",
+      "calculator/EField_EM/UPDATE/EFPLOT.py",
+      "calculator/EField_Navigation_Fix/EFPLOT.py",
+      "calculator/Exam2_Evo/TRANSFER/EFPLOT.py"
+    ]
+  },
+  {
+    "name": "EFTOOLS",
+    "role": "Superposition and related field tools",
+    "distinct_contents": 2,
+    "paths": [
+      "Share_AP_Physics_C_EM/TI84_EVO/TRANSFER/EFTOOLS.py",
+      "Share_AP_Physics_C_EM/TI84_PLUS_CE_PYTHON/TRANSFER/EFTOOLS.py",
+      "calculator/EFIELD_SOURCE/EFTOOLS.py",
+      "calculator/EField_EM/TRANSFER/EFTOOLS.py",
+      "calculator/EField_EM/UPDATE/EFTOOLS.py",
+      "calculator/Exam2_Evo/TRANSFER/EFTOOLS.py"
+    ]
+  },
+  {
+    "name": "EXAM2",
+    "role": "Exam 2 launcher (Evo)",
+    "distinct_contents": 1,
+    "paths": [
+      "calculator/Exam2_Evo/TRANSFER/EXAM2.py",
+      "calculator/Exam2_Evo/UPDATE/EXAM2.py"
+    ]
+  }
+]

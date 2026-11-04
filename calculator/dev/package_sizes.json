@@ -1,0 +1,105 @@
+{
+  "total": 48344,
+  "files": {
+    "APC.py": {
+      "original": 4257,
+      "minified": 3426,
+      "install": 2212
+    },
+    "APCHECK.py": {
+      "original": 1874,
+      "minified": 1656,
+      "install": 1113
+    },
+    "APCORE.py": {
+      "original": 14265,
+      "minified": 10473,
+      "install": 4911
+    },
+    "APGRAPH.py": {
+      "original": 8613,
+      "minified": 6740,
+      "install": 3456
+    },
+    "APMATH.py": {
+      "original": 4690,
+      "minified": 4001,
+      "install": 2433
+    },
+    "APNOTES.py": {
+      "original": 15637,
+      "minified": 15345,
+      "install": 8476
+    },
+    "APTOOLS.py": {
+      "original": 12980,
+      "minified": 10980,
+      "install": 5560
+    },
+    "APU01.py": {
+      "original": 2697,
+      "minified": 2448,
+      "install": 936
+    },
+    "APU02.py": {
+      "original": 3704,
+      "minified": 3343,
+      "install": 1396
+    },
+    "APU03.py": {
+      "original": 3126,
+      "minified": 2817,
+      "install": 1191
+    },
+    "APU04.py": {
+      "original": 2173,
+      "minified": 1974,
+      "install": 828
+    },
+    "APU05.py": {
+      "original": 4722,
+      "minified": 4283,
+      "install": 1273
+    },
+    "APU06.py": {
+      "original": 2956,
+      "minified": 2686,
+      "install": 1075
+    },
+    "APU07.py": {
+      "original": 3046,
+      "minified": 2773,
+      "install": 1200
+    },
+    "APU08.py": {
+      "original": 4218,
+      "minified": 3880,
+      "install": 1476
+    },
+    "APU09.py": {
+      "original": 3795,
+      "minified": 3460,
+      "install": 1290
+    },
+    "APU10.py": {
+      "original": 3824,
+      "minified": 3481,
+      "install": 1386
+    },
+    "APU11.py": {
+      "original": 4457,
+      "minified": 4040,
+      "install": 1387
+    },
+    "APU12.py": {
+      "original": 5127,
+      "minified": 4662,
+      "install": 1605
+    },
+    "APU13.py": {
+      "original": 4899,
+      "minified": 4438,
+      "install": 1686
+    }
+  }
+}

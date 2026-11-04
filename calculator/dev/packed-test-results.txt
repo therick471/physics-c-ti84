@@ -1,0 +1,29 @@
+test_every_explicit_inverse (__main__.CatalogTests.test_every_explicit_inverse) ... ok
+test_calculus_and_small_roots (__main__.ToolkitTests.test_calculus_and_small_roots) ... ok
+test_collision_conservation (__main__.ToolkitTests.test_collision_conservation) ... ok
+test_formula_edge_cases (__main__.ToolkitTests.test_formula_edge_cases) ... ok
+test_graph_sampling_limits (__main__.ToolkitTests.test_graph_sampling_limits) ... ok
+test_linear_scaled_and_singular (__main__.ToolkitTests.test_linear_scaled_and_singular) ... ok
+test_main_menu_flows (__main__.ToolkitTests.test_main_menu_flows) ... ok
+test_menu_navigation (__main__.ToolkitTests.test_menu_navigation) ... ok
+test_mna_multi_battery (__main__.ToolkitTests.test_mna_multi_battery) ... ok
+test_numeric_input_cancellation_defaults (__main__.ToolkitTests.test_numeric_input_cancellation_defaults) ... ok
+test_on_device_smoke_suite (__main__.ToolkitTests.test_on_device_smoke_suite) ... ok
+test_parser_precedence_domains (__main__.ToolkitTests.test_parser_precedence_domains) ... ok
+test_plot_api_contract (__main__.ToolkitTests.test_plot_api_contract) ... ok
+test_projectile_nonzero_height_and_directions (__main__.ToolkitTests.test_projectile_nonzero_height_and_directions) ... ok
+test_pulley_tensions (__main__.ToolkitTests.test_pulley_tensions) ... ok
+test_quadratic_stability (__main__.ToolkitTests.test_quadratic_stability) ... ok
+test_rc_rl_limits (__main__.ToolkitTests.test_rc_rl_limits) ... ok
+test_regression (__main__.ToolkitTests.test_regression) ... ok
+test_shm_energy_and_initial_state (__main__.ToolkitTests.test_shm_energy_and_initial_state) ... ok
+test_sphere_continuity (__main__.ToolkitTests.test_sphere_continuity) ... ok
+test_superposition_sign_and_singularity (__main__.ToolkitTests.test_superposition_sign_and_singularity) ... ok
+test_ti_source_constraints (__main__.ToolkitTests.test_ti_source_constraints) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 1.334s
+
+OK
+
+Catalog: 525 explicit and 41 bracketed target inverses verified

@@ -1,0 +1,35 @@
+CONTROLS AND QUICK REFERENCE
+
+Menus: UP/DOWN selects; ENTER opens; LEFT/RIGHT changes pages; CLEAR or 0 returns.
+Numbers 1–5 select a displayed entry; 8/9 moves to the previous/next menu page.
+Guide/formula cards: ENTER or RIGHT advances, LEFT goes back a page,
+CLEAR or 0 exits. UP/DOWN also moves between guide pages.
+Graphs and sketches: CLEAR dismisses the view. ON interrupts a running program.
+At numeric/expression prompts: type q then ENTER to cancel. CLEAR alone is not
+the same as canceling a numeric prompt. ENTER accepts a displayed default.
+
+Main programs:
+  EFIELD    Ring, rod, line and arc field studio.
+  APC       Field studio + six E&M equation units + math and graphing tools.
+  EFKEY     Calibrate navigation and launch EFIELD in the same session.
+  EFCHK     12 physics checks + 2 text/menu layout checks.
+  APCHECK   8 arithmetic/expression/root checks.
+
+Units: SI. Enter charge in coulombs (example: 1e-9 for 1 nC), length in meters.
+Use * for multiplication and ^ for powers. pi, sqrt(2), sin(pi/2), ln(2),
+scientific notation and the last computed ans are supported in numeric inputs.
+R is ring/arc radius. L is FULL rod length. Ring x is from the center;
+bisector-rod x is perpendicular from the midpoint; end-rod x is from the near end.
+Most trig inputs use radians. Arc geometry prompts explicitly ask for degrees
+and convert internally; formulas use sweep phi in radians.
+
+Try this after installation:
+  EFIELD > Ring: on its axis > Calculate E, V and force
+  Choose Total Q, then R=1, Q=1e-9, x=1 (follow the prompt order shown).
+  Expected E about 3.1775794 N/C and V about 6.3551588 V.
+
+Included: five complete field guides; E and V solvers; exact model limits and
+extrema; backward solves; graphing; two-ring and charge/arc superposition;
+84 E&M reference equations and final-formula cards; numerical calculus, linear
+systems and ODE tools. Mechanics units are not included in this E&M edition.
+Custom limit/extremum sampling is an estimate, not a symbolic proof.

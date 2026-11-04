@@ -1,0 +1,45 @@
+VALIDATION — 2026-11-02
+
+33 shared regression test groups passed.
+12 package/model-profile test groups passed, exercising both profiles.
+Full logs are in CHECKS/. These are desktop tests, not calculator emulation.
+
+The shared regression suite covers independent ring/rod numerical integration,
+signs and limits, potential derivatives, extrema, inverse solves, arc components,
+two-ring cancellation, menu routes, guide pagination, final-formula accuracy and
+display coverage of every one of the 84 E&M catalog entries.
+
+The package/profile checks cover complete 34-file installs, legal calculator
+names, ASCII syntax, import dependencies, agreement of solver sources with the
+tested release, Evo get_key(1), CE wait_key(), model-specific key maps, ignored
+no-key events, keyboard calibration and a real menu selection using simulated
+TI APIs, full ring calculation navigation, graphing API calls and highlight
+alignment under each model's text-coordinate convention.
+
+EVO PROFILE
+Uses the Evo program's existing key support and measured 18-pixel text ascent.
+Physical Evo transfer, working navigation and corrected highlight alignment were
+confirmed during development. This share package preserves that GUI/solver code;
+only the keyboard-calibration screen wording is made model-neutral. The latest
+final-formula files were transferred during development; that section's routes
+and equations were regression-tested on desktop.
+
+PLUS CE PYTHON PROFILE
+Uses the documented CE wait_key() codes and a zero text-ascent correction,
+consistent with TI's upper-left text-coordinate API. It has the same solver,
+formula and guide files as the Evo profile. Its API behavior was checked with
+simulated TI modules; NO PHYSICAL CE PYTHON CALCULATOR WAS AVAILABLE. Actual CE
+Python heap limits, display/font behavior and hardware keys must be checked on
+the recipient's calculator using EFCHK and EFKEY before relying on it.
+
+WHAT THE INCLUDED DEVICE CHECKS MEAN
+EFCHK: 12 numerical physics checks + 2 wrap/menu-page checks. It does not test
+physical key presses or prove that every graph renders correctly.
+EFKEY: learns six physical keys and asks for a DOWN/ENTER menu test. It prints
+PASS: hardware navigation only when the expected second item is selected.
+APCHECK: 8 arithmetic, expression, quadratic and root checks.
+
+The files are plain Python. No packed-source decoder is used. No desktop
+Python packages or development environment are required by the recipient.
+General custom-function limit/extremum sampling is numerical evidence, not a
+symbolic proof. Calculator storage and Python runtime heap are different.

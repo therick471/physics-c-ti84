@@ -1,0 +1,58 @@
+TROUBLESHOOTING
+
+Calculator is not detected
+  Use a data-capable USB cable, turn the calculator on, reconnect, and select it
+  in the connection dialog. Close another calculator connection using the same
+  USB port. Evo uses the TI Connect Evo website; CE Python uses TI Connect CE.
+  For browser/OS requirements, consult the linked TI product pages.
+
+ImportError / module not found / only the launcher was sent
+  Send ALL 34 .py files from ONE model's TRANSFER folder, not just APC/EFIELD.
+  Keep names and capitalization. Names must not become PYTHON01, etc.
+  Restart Python after transfer. On CE, make sure program AppVars are in RAM.
+
+It still runs an old menu after an update
+  Reinitialize/restart the Python shell, then run APC or EFIELD again.
+  Merely returning to the file list can leave imported modules cached.
+
+MemoryError while running
+  Restart the Python shell and run EFIELD directly before opening other tools.
+  Calculator storage and Python runtime heap are different. If transfer itself
+  reports low storage, back up and archive unused programs/AppVars first.
+  Keep this package's program files in RAM when using them on CE Python.
+  Do not delete TI_DRAW/TI_IMAGE or individual toolkit dependencies to save space.
+
+Menus do not respond / a key does the wrong thing
+  Confirm you used the correct model folder. Restart Python and run EFKEY;
+  follow each press-and-release prompt, then the DOWN/ENTER test.
+  Calibration lasts until the Python shell is restarted.
+
+The highlight is above/below the selected entry
+  The profiles use different text alignment. Reinstall EFGUI.py from the correct
+  model folder, restart Python and try again. Do not mix profile files.
+
+Missing Python app, TI_DRAW, or ti_plotlib
+  Python itself must work on the calculator first. TI_DRAW supplies graphical
+  menus/sketches; ti_plotlib supplies plots. The program uses text menus when
+  TI_DRAW cannot load. Install the official OS/apps bundle for YOUR model if a
+  built-in module is missing. Obtain TI software through the official links;
+  do not copy Evo binary modules to CE or CE binary modules to Evo.
+
+  CE OS/apps: https://education.ti.com/en/software/update/84-ce-software-update
+  CE module guide: https://education.ti.com/html/webhelp/eg_ti84pluscepy/uk/content/eg_pythonappprog/m_pyentry/m_addon.HTML
+  Evo updates: https://education.ti.com/en/product-resources/eguides/eguide-84-evo/evo-connect-user-guide
+
+Errors on a numeric input
+  Use SI units and the domain shown. R,L must be positive; ideal rod/line models
+  cannot be evaluated on their charge. Infinite-line input is charge per length,
+  not a finite total charge. A ring inverse may have TWO positive distances.
+
+To uninstall
+  Back up anything you edited, then remove only the toolkit .py/Python AppVar
+  names listed in MANIFEST.json. Leave calculator system modules in place.
+
+When asking for help
+  Include calculator model, OS/Python version, program name, selected menu,
+  entered values and the exact error or a screen photo. The Plus CE profile has
+  desktop checks with simulated TI APIs; physical CE memory/display behavior
+  still needs verification on the recipient's device.

@@ -1,0 +1,25 @@
+TI-84 PLUS CE PYTHON EDITION — INSTALL
+
+Get TI Connect CE for Windows or Mac from TI:
+https://education.ti.com/en/products/computer-software/ti-connect-ce-sw
+Official Python-transfer guide:
+https://education.ti.com/html/eguides/connectivity/TI-Connect-CE/EN/Content/EG_84_TIConnect/M_UsePython/M_UsePython.HTML
+
+1. Check the model: it must be the TI-84 Plus CE PYTHON edition and have a
+   working Python app. A regular TI-84 Plus CE without Python cannot run this.
+2. Extract the ZIP. Install/open TI Connect CE on a supported Windows or Mac
+   computer. Connect the powered-on calculator with a USB DATA cable.
+3. Open Calculator Explorer and select your calculator. Back up any matching
+   programs you edited before replacing them.
+4. Select ALL 34 .py files in TI84_PLUS_CE_PYTHON/TRANSFER and drag the group
+   into Calculator Explorer, or use Actions > Send to Calculators.
+5. Keep all original names. Set Location to RAM. Enable replacement of matching
+   names for an update, select the intended calculator, and click Send.
+6. Wait until all files finish. TI Connect CE automatically converts .py files
+   to Python AppVars. You do not need to generate .8xv files yourself.
+7. Open the calculator's Python app and continue with FIRST RUN in README.txt.
+
+Use Calculator Explorer, not the TI-BASIC Program Editor. Python programs need
+to be in RAM to load/run in the Python app. Do not send the Evo profile or ZIP.
+If Python or TI_DRAW is missing, see TROUBLESHOOTING.txt and the official
+CE OS/apps page: https://education.ti.com/en/software/update/84-ce-software-update

@@ -1,0 +1,7 @@
+test_banner_and_bounds (__main__.Layout.test_banner_and_bounds) ... ok
+test_page_navigation_preserves_text (__main__.Layout.test_page_navigation_preserves_text) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.003s
+
+OK
